@@ -1,0 +1,244 @@
+{
+  "php": [
+    {
+      "height": 440.015625,
+      "selector": "db-strip",
+      "width": 351,
+      "x": 12,
+      "y": 317.828125
+    },
+    {
+      "height": 418.890625,
+      "selector": "db-panel db-panel-primary db-c4",
+      "width": 351,
+      "x": 12,
+      "y": 775.84375
+    },
+    {
+      "height": 210,
+      "selector": "db-chart db-chart-md",
+      "width": 313,
+      "x": 31,
+      "y": 872.578125
+    },
+    {
+      "height": 210,
+      "selector": "chart-completion",
+      "width": 313,
+      "x": 31,
+      "y": 872.578125
+    },
+    {
+      "height": 329.6484375,
+      "selector": "db-panel db-c4",
+      "width": 351,
+      "x": 12,
+      "y": 1212.734375
+    },
+    {
+      "height": 444.8125,
+      "selector": "db-panel db-panel-accent db-c4",
+      "width": 351,
+      "x": 12,
+      "y": 1560.3828125
+    },
+    {
+      "height": 323.734375,
+      "selector": "db-panel db-c5",
+      "width": 351,
+      "x": 12,
+      "y": 2023.1953125
+    },
+    {
+      "height": 210,
+      "selector": "db-chart db-chart-md",
+      "width": 313,
+      "x": 31,
+      "y": 2117.9296875
+    },
+    {
+      "height": 210,
+      "selector": "chart-activity",
+      "width": 313,
+      "x": 31,
+      "y": 2117.9296875
+    },
+    {
+      "height": 481.640625,
+      "selector": "db-panel db-c4",
+      "width": 351,
+      "x": 12,
+      "y": 2364.9296875
+    },
+    {
+      "height": 190,
+      "selector": "db-chart db-chart-xs db-chart-gauge",
+      "width": 313,
+      "x": 31,
+      "y": 2459.6640625
+    },
+    {
+      "height": 190,
+      "selector": "chart-residency-progress",
+      "width": 313,
+      "x": 31,
+      "y": 2459.6640625
+    },
+    {
+      "height": 305.6484375,
+      "selector": "db-panel db-c3",
+      "width": 351,
+      "x": 12,
+      "y": 2864.5703125
+    },
+    {
+      "height": 210,
+      "selector": "db-chart db-chart-sm",
+      "width": 313,
+      "x": 31,
+      "y": 2941.21875
+    },
+    {
+      "height": 210,
+      "selector": "chart-household-mine",
+      "width": 313,
+      "x": 31,
+      "y": 2941.21875
+    },
+    {
+      "height": 395.09375,
+      "selector": "db-panel db-c8",
+      "width": 351,
+      "x": 12,
+      "y": 3188.21875
+    },
+    {
+      "height": 421.09375,
+      "selector": "db-panel db-c4",
+      "width": 351,
+      "x": 12,
+      "y": 3601.3125
+    }
+  ],
+  "react": [
+    {
+      "height": 440.015625,
+      "selector": "db-strip",
+      "width": 351,
+      "x": 12,
+      "y": 317.828125
+    },
+    {
+      "height": 418.890625,
+      "selector": "db-panel db-panel-primary db-c4",
+      "width": 351,
+      "x": 12,
+      "y": 775.84375
+    },
+    {
+      "height": 210,
+      "selector": "db-chart db-chart-md",
+      "width": 313,
+      "x": 31,
+      "y": 872.578125
+    },
+    {
+      "height": 210,
+      "selector": "chart-completion",
+      "width": 313,
+      "x": 31,
+      "y": 872.578125
+    },
+    {
+      "height": 329.6484375,
+      "selector": "db-panel db-c4",
+      "width": 351,
+      "x": 12,
+      "y": 1212.734375
+    },
+    {
+      "height": 444.8125,
+      "selector": "db-panel db-panel-accent db-c4",
+      "width": 351,
+      "x": 12,
+      "y": 1560.3828125
+    },
+    {
+      "height": 323.734375,
+      "selector": "db-panel db-c5",
+      "width": 351,
+      "x": 12,
+      "y": 2023.1953125
+    },
+    {
+      "height": 210,
+      "selector": "db-chart db-chart-md",
+      "width": 313,
+      "x": 31,
+      "y": 2117.9296875
+    },
+    {
+      "height": 210,
+      "selector": "chart-activity",
+      "width": 313,
+      "x": 31,
+      "y": 2117.9296875
+    },
+    {
+      "height": 481.640625,
+      "selector": "db-panel db-c4",
+      "width": 351,
+      "x": 12,
+      "y": 2364.9296875
+    },
+    {
+      "height": 190,
+      "selector": "db-chart db-chart-xs db-chart-gauge",
+      "width": 313,
+      "x": 31,
+      "y": 2459.6640625
+    },
+    {
+      "height": 190,
+      "selector": "chart-residency-progress",
+      "width": 313,
+      "x": 31,
+      "y": 2459.6640625
+    },
+    {
+      "height": 305.6484375,
+      "selector": "db-panel db-c3",
+      "width": 351,
+      "x": 12,
+      "y": 2864.5703125
+    },
+    {
+      "height": 210,
+      "selector": "db-chart db-chart-sm",
+      "width": 313,
+      "x": 31,
+      "y": 2941.21875
+    },
+    {
+      "height": 210,
+      "selector": "chart-household-mine",
+      "width": 313,
+      "x": 31,
+      "y": 2941.21875
+    },
+    {
+      "height": 395.09375,
+      "selector": "db-panel db-c8",
+      "width": 351,
+      "x": 12,
+      "y": 3188.21875
+    },
+    {
+      "height": 421.09375,
+      "selector": "db-panel db-c4",
+      "width": 351,
+      "x": 12,
+      "y": 3601.3125
+    }
+  ]
+}

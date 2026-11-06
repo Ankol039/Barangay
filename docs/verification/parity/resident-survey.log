@@ -1,0 +1,14 @@
+✔ survey tables match original PHP text, truncation, dates, states and actions (1043.985334ms)
+✔ single QuestionField matches all four original controls and required-group validation (552.775875ms)
+✔ React submits end to end, consumes the confirmation URL and clears modal content (1654.993792ms)
+✔ history, response values, links and print mode match source; auto-print waits for data (969.421417ms)
+✔ missing response redirects and empty/failed messages retain source wording (1007.446625ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5591.589625
+Resident survey API: 87 assertions passed.

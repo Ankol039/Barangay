@@ -1,0 +1,1 @@
+.staff-slip-print-area{display:none}@media print{body:has(>.staff-slip-print-area)>*{display:none!important}body>.staff-slip-print-area{padding:24px;display:block!important}}

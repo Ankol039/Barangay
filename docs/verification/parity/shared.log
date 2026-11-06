@@ -1,0 +1,18 @@
+✔ landing preserves PHP text, anchors, SVG geometry and reveal delays; styling cleans up (290.007834ms)
+✔ reveal observes once, ignores offscreen entries, preserves delays and survives StrictMode cleanup (2.080792ms)
+✔ API transport preserves cookies, JSON and server errors in dev and deployed paths (17.911ms)
+✔ password checklist, match hint and success modal render the PHP states (207.243292ms)
+✔ portal boundaries and onboarding precedence cover direct route entry (0.325ms)
+✔ table search trims/case-folds and combines token filters; empty state and tables are independent (253.727042ms)
+✔ dirty modal dismissal, route/back navigation, unload, reset, and keep-on-close (34.427416ms)
+✔ confirmation cancellation is inert; proceed preserves form submitter and link URL (11.296292ms)
+✔ eligible alerts become toasts at 6000ms, remove after 220ms; modal/info alerts remain inline (4.664875ms)
+✔ portal shells preserve navigation, admin counts, menu/avatar fallback, and drawer dismissal (40.331ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 757.295375

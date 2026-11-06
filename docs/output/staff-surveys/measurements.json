@@ -1,0 +1,330 @@
+{
+  "questionsDesktop": {
+    "react": {
+      "boxes": {
+        ".app-main": {
+          "height": 900,
+          "width": 1190,
+          "x": 250,
+          "y": 0
+        },
+        ".card": {
+          "height": 377.328125,
+          "width": 1142,
+          "x": 274,
+          "y": 99.328125
+        },
+        ".card-head": {
+          "height": 65.9921875,
+          "width": 1100,
+          "x": 295,
+          "y": 120.328125
+        },
+        ".container": {
+          "height": 741.171875,
+          "width": 1142,
+          "x": 274,
+          "y": 70
+        },
+        ".site-footer": {
+          "height": 60.828125,
+          "width": 1190,
+          "x": 250,
+          "y": 839.171875
+        },
+        "table": {
+          "height": 253.3359375,
+          "width": 1100,
+          "x": 295,
+          "y": 202.3203125
+        }
+      },
+      "height": 900,
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    "php": {
+      "boxes": {
+        ".app-main": {
+          "height": 900,
+          "width": 1190,
+          "x": 250,
+          "y": 0
+        },
+        ".card": {
+          "height": 377.328125,
+          "width": 1142,
+          "x": 274,
+          "y": 99.328125
+        },
+        ".card-head": {
+          "height": 65.9921875,
+          "width": 1100,
+          "x": 295,
+          "y": 120.328125
+        },
+        ".container": {
+          "height": 741.171875,
+          "width": 1142,
+          "x": 274,
+          "y": 70
+        },
+        ".site-footer": {
+          "height": 60.828125,
+          "width": 1190,
+          "x": 250,
+          "y": 839.171875
+        },
+        "table": {
+          "height": 253.3359375,
+          "width": 1100,
+          "x": 295,
+          "y": 202.3203125
+        }
+      },
+      "height": 900,
+      "viewport": [
+        1440,
+        900
+      ]
+    }
+  },
+  "addDesktop": {
+    "react": {
+      "boxes": {
+        ".app-main": {
+          "height": 1439.265625,
+          "width": 1175,
+          "x": 250,
+          "y": 0
+        },
+        ".card": {
+          "height": 1264.4375,
+          "width": 1127,
+          "x": 274,
+          "y": 70
+        },
+        ".card-head": null,
+        ".container": {
+          "height": 1280.4375,
+          "width": 1127,
+          "x": 274,
+          "y": 70
+        },
+        ".site-footer": {
+          "height": 60.828125,
+          "width": 1175,
+          "x": 250,
+          "y": 1378.4375
+        },
+        "table": null
+      },
+      "height": 1439,
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    "php": {
+      "boxes": {
+        ".app-main": {
+          "height": 1439.265625,
+          "width": 1175,
+          "x": 250,
+          "y": 0
+        },
+        ".card": {
+          "height": 1264.4375,
+          "width": 1127,
+          "x": 274,
+          "y": 70
+        },
+        ".card-head": null,
+        ".container": {
+          "height": 1280.4375,
+          "width": 1127,
+          "x": 274,
+          "y": 70
+        },
+        ".site-footer": {
+          "height": 60.828125,
+          "width": 1175,
+          "x": 250,
+          "y": 1378.4375
+        },
+        "table": null
+      },
+      "height": 1439,
+      "viewport": [
+        1440,
+        900
+      ]
+    }
+  },
+  "addPhone": {
+    "react": {
+      "boxes": {
+        ".app-main": {
+          "height": 1719.6015625,
+          "width": 375,
+          "x": 0,
+          "y": 0
+        },
+        ".card": {
+          "height": 1531.9453125,
+          "width": 351,
+          "x": 12,
+          "y": 65
+        },
+        ".card-head": null,
+        ".container": {
+          "height": 1545.9453125,
+          "width": 375,
+          "x": 0,
+          "y": 65
+        },
+        ".site-footer": {
+          "height": 80.65625,
+          "width": 375,
+          "x": 0,
+          "y": 1638.9453125
+        },
+        "table": null
+      },
+      "height": 1719,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    "php": {
+      "boxes": {
+        ".app-main": {
+          "height": 1719.6015625,
+          "width": 375,
+          "x": 0,
+          "y": 0
+        },
+        ".card": {
+          "height": 1531.9453125,
+          "width": 351,
+          "x": 12,
+          "y": 65
+        },
+        ".card-head": null,
+        ".container": {
+          "height": 1545.9453125,
+          "width": 375,
+          "x": 0,
+          "y": 65
+        },
+        ".site-footer": {
+          "height": 80.65625,
+          "width": 375,
+          "x": 0,
+          "y": 1638.9453125
+        },
+        "table": null
+      },
+      "height": 1719,
+      "viewport": [
+        390,
+        844
+      ]
+    }
+  },
+  "questionsPhone": {
+    "react": {
+      "boxes": {
+        ".app-main": {
+          "height": 844,
+          "width": 390,
+          "x": 0,
+          "y": 0
+        },
+        ".card": {
+          "height": 491.640625,
+          "width": 366,
+          "x": 12,
+          "y": 94.328125
+        },
+        ".card-head": {
+          "height": 156.65625,
+          "width": 336,
+          "x": 27,
+          "y": 109.328125
+        },
+        ".container": {
+          "height": 670.34375,
+          "width": 390,
+          "x": 0,
+          "y": 65
+        },
+        ".site-footer": {
+          "height": 80.65625,
+          "width": 390,
+          "x": 0,
+          "y": 763.34375
+        },
+        "table": {
+          "height": 273.984375,
+          "width": 620,
+          "x": 27,
+          "y": 281.984375
+        }
+      },
+      "height": 844,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    "php": {
+      "boxes": {
+        ".app-main": {
+          "height": 844,
+          "width": 390,
+          "x": 0,
+          "y": 0
+        },
+        ".card": {
+          "height": 491.640625,
+          "width": 366,
+          "x": 12,
+          "y": 94.328125
+        },
+        ".card-head": {
+          "height": 156.65625,
+          "width": 336,
+          "x": 27,
+          "y": 109.328125
+        },
+        ".container": {
+          "height": 670.34375,
+          "width": 390,
+          "x": 0,
+          "y": 65
+        },
+        ".site-footer": {
+          "height": 80.65625,
+          "width": 390,
+          "x": 0,
+          "y": 763.34375
+        },
+        "table": {
+          "height": 273.984375,
+          "width": 620,
+          "x": 27,
+          "y": 281.984375
+        }
+      },
+      "height": 844,
+      "viewport": [
+        390,
+        844
+      ]
+    }
+  }
+}

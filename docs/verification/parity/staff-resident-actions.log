@@ -1,0 +1,18 @@
+✔ staff: edit chooser, record prefill, custom titles and rebuilt children/references match the PHP loader (2279.224958ms)
+✔ staff: edit retains validation values and saves updated family rows without changing residency (1303.89325ms)
+✔ staff: reset and deactivate/reactivate use PHP confirmations, cancel safely and refresh badges (1175.93475ms)
+✔ admin: edit chooser, record prefill, custom titles and rebuilt children/references match the PHP loader (1198.29275ms)
+✔ admin: edit retains validation values and saves updated family rows without changing residency (1236.422916ms)
+✔ admin: reset and deactivate/reactivate use PHP confirmations, cancel safely and refresh badges (1214.026042ms)
+✔ staff: reason request keeps the account, refreshes pending icon and hides admin controls (676.244916ms)
+✔ admin: promotion and reversion preview saved addresses, preserve records, require reason and refresh status (1254.914542ms)
+✔ admin: Delete archives, uses exact legacy warning, and removes the resident from the list (661.949667ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 11400.761625
+Passed 392 resident action API/original-PHP parity assertions.

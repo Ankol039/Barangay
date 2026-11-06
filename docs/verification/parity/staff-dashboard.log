@@ -1,0 +1,16 @@
+✔ staff: dashboard sections, labels, figures, tables, all eleven chart configurations match PHP (1238.630667ms)
+✔ admin: dashboard sections, labels, figures, tables, all eleven chart configurations match PHP (892.754875ms)
+✔ completion View All expands and returns to source top-three state (474.963167ms)
+✔ date filter changes only trend; reset, missing dates, failed fetch preserve source behavior (754.903292ms)
+✔ empty dashboard hides demographics and preserves all PHP empty messages (465.53225ms)
+✔ chart loading failure uses original question-mix error while dashboard figures remain (365.698083ms)
+✔ staff gauge centre uses arc anchor, 26px type and original half-ring offsets (0.731ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4562.995959
+Staff dashboard API: 139 assertions passed against original dashboard.php and ajax_stats.php.

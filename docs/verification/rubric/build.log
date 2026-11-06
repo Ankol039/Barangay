@@ -1,0 +1,43 @@
+
+> barangay-survey-frontend@0.0.0 build
+> vite build
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 203 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                               0.92 kB │ gzip:   0.42 kB
+dist/assets/Logo-D-BKB-9t.png               314.62 kB
+dist/assets/UserManagement-6C_Zjq96.css       0.17 kB │ gzip:   0.12 kB
+dist/assets/index-BRl_AEXa.css               80.91 kB │ gzip:  15.66 kB
+dist/assets/DetailsTable-CuX7JIMf.js          0.31 kB │ gzip:   0.22 kB
+dist/assets/rolldown-runtime-WkwZ5CU-.js      0.59 kB │ gzip:   0.36 kB
+dist/assets/useDirtyWarning-BmQ-dn1Y.js       0.75 kB │ gzip:   0.46 kB
+dist/assets/useRequestQueue-CKvxEo3R.js       1.09 kB │ gzip:   0.60 kB
+dist/assets/propTypes-uPk9dAXa.js             2.01 kB │ gzip:   0.80 kB
+dist/assets/AddressFields-BmhePhWP.js         2.24 kB │ gzip:   1.03 kB
+dist/assets/residentForm-BoUJkGIH.js          2.33 kB │ gzip:   1.08 kB
+dist/assets/StatDetail-KqG8rVa4.js            2.46 kB │ gzip:   1.10 kB
+dist/assets/DataTable-CCkMi9lw.js             2.50 kB │ gzip:   1.13 kB
+dist/assets/DeletionRequests-BtWWrUP4.js      3.17 kB │ gzip:   1.28 kB
+dist/assets/SurveyManagement-CJ6Lfp0Z.js      3.51 kB │ gzip:   1.46 kB
+dist/assets/QuestionEditor-CCHVDKPV.js        3.92 kB │ gzip:   1.49 kB
+dist/assets/RequestCard-QkDNSzZP.js           4.08 kB │ gzip:   1.58 kB
+dist/assets/DeletedAccounts-DzIFI94E.js       4.56 kB │ gzip:   1.73 kB
+dist/assets/AddressRequests-DX7gx4cy.js       5.16 kB │ gzip:   1.56 kB
+dist/assets/ResidencyRecords-BoabWIRe.js      5.18 kB │ gzip:   1.91 kB
+dist/assets/QuestionManagement-aJddnFsy.js    5.55 kB │ gzip:   2.01 kB
+dist/assets/FamilyFields-BrYYLkMh.js          6.28 kB │ gzip:   2.13 kB
+dist/assets/PhotoUploader-Doi9Qwb3.js         6.67 kB │ gzip:   2.62 kB
+dist/assets/SurveyEditor-HSVZACJ2.js          6.72 kB │ gzip:   2.48 kB
+dist/assets/CompleteProfile-D6jICYiq.js       7.45 kB │ gzip:   2.85 kB
+dist/assets/Results-DE80p4QA.js               9.13 kB │ gzip:   3.15 kB
+dist/assets/UserManagement-BEAvbPtB.js       10.81 kB │ gzip:   3.44 kB
+dist/assets/Profile-DrGh7fz3.js              11.78 kB │ gzip:   3.74 kB
+dist/assets/Dashboard-Cdzf5_TT.js            17.35 kB │ gzip:   5.77 kB
+dist/assets/ResidentManagement-DEMsPqwL.js   22.37 kB │ gzip:   6.39 kB
+dist/assets/Alert-BSXsS26T.js               142.80 kB │ gzip:  46.68 kB
+dist/assets/index-CiXOWVCe.js               369.76 kB │ gzip: 119.26 kB
+
+✓ built in 161ms

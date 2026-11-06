@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><base href="http://localhost/barangay_survey_system/staff/">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Create Survey - Barangay Health Center Survey System</title>
+<link rel="stylesheet" href="../assets/css/style.css?v=30">
+</head>
+<body class="portal-layout">
+
+<aside class="sidebar no-print" id="app-sidebar">
+    <button type="button" class="sidebar-close mobile-nav-close" aria-label="Close navigation" title="Close navigation">&times;</button>
+    <div class="sidebar-header">
+        <div class="sidebar-logo">
+            <img class="sidebar-logo-img" src="../assets/css/Logo.png?v=2" alt="Barangay Health Center Logo">
+            <span class="sidebar-logo-text">
+                Barangay Health Center
+                <small>Survey Management System</small>
+            </span>
+        </div>
+    </div>
+
+    <nav>
+        <a class="nav-item" href="dashboard.php"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9.5 12 3l9 6.5V21a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1Z"/></svg><span>Dashboard</span></a>
+
+        <span class="sidebar-section-label">Surveys</span>
+        <a class="nav-item" href="survey_management.php"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6a1 1 0 0 1 1 1v1H8V4a1 1 0 0 1 1-1Z"/><rect x="5" y="5" width="14" height="16" rx="2"/><path d="M9 11h6M9 15h6M9 19h3"/></svg><span>Surveys</span></a>
+        <a class="nav-item" href="results_dashboard.php"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" x2="18" y1="20" y2="10"/><line x1="12" x2="12" y1="20" y2="4"/><line x1="6" x2="6" y1="20" y2="14"/></svg><span>Results</span></a>
+        <a class="nav-item" href="reports.php"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"/><path d="M14 2v6h6"/><path d="M9 15h6M9 11h2"/></svg><span>Reports</span></a>
+
+        <span class="sidebar-section-label">People</span>
+        <a class="nav-item" href="resident_management.php"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg><span>Registered Resident</span></a>
+        <a class="nav-item" href="address_requests.php"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg><span>Address Requests</span></a>
+        <a class="nav-item" href="user_management.php"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2 4 5v6c0 5 3.4 8.7 8 10 4.6-1.3 8-5 8-10V5Z"/><path d="m9 12 2 2 4-4"/></svg><span>User Management</span></a>
+        <a class="nav-item" href="deletion_requests.php"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="3 6 5 6 21 6"/><path d="M8 6V4h8v2M19 6l-1 15H6L5 6"/><path d="M10 11v6M14 11v6"/></svg><span>Deletion Requests</span></a>
+            </nav>
+
+</aside>
+<div class="nav-drawer-backdrop" id="nav-drawer-backdrop" aria-hidden="true"></div>
+
+<div class="app-main">
+
+<!-- Account indicator: upper-right corner, holds the portal options
+     that used to sit in the sidebar. -->
+<div class="app-topbar no-print">
+    <button type="button" class="mobile-nav-toggle mobile-nav-trigger" id="mobile-nav-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="app-sidebar">&#9776;</button>
+    <div class="mobile-brand" aria-hidden="true">
+        <img src="../assets/css/Logo.png?v=2" alt="">
+        <span>Barangay Health Center<small>Survey Management System</small></span>
+    </div>
+    <div class="account-tab">
+        <button type="button" class="account-chip" id="account-chip" title="Survey Management Fixture" aria-expanded="false" aria-haspopup="true" aria-controls="account-menu">
+                            <span class="account-avatar">S</span>
+                        <span class="account-meta">
+                <span class="account-name">Survey Management Fixture</span>
+                <span class="account-type">Staff Portal</span>
+            </span>
+            <svg class="account-caret" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>        </button>
+
+        <div class="account-menu" id="account-menu">
+            <!-- Full name, never truncated, so the chip's "..." can always be resolved -->
+            <span class="account-menu-name">Survey Management Fixture</span>
+            <span class="account-menu-role">Staff Portal</span>
+            <div class="account-menu-divider"></div>
+            <a href="complete_profile.php"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6 8-6s8 2 8 6"/></svg><span>My Profile</span></a>
+            <a href="change_password.php"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg><span>Change Password</span></a>
+            <div class="account-menu-divider"></div>
+            <!-- <span class="account-menu-label">Portals</span>
+            <a class="is-current" href="dashboard.php"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2 4 5v6c0 5 3.4 8.7 8 10 4.6-1.3 8-5 8-10V5Z"/><path d="m9 12 2 2 4-4"/></svg><span>Staff Portal</span></a>
+            <a href="../resident/login.php"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6 8-6s8 2 8 6"/></svg><span>Resident Portal</span></a>
+            <div class="account-menu-divider"></div> -->
+            <a class="account-menu-danger" href="logout.php"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" x2="9" y1="12" y2="12"/></svg><span>Logout</span></a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+<div class="card">
+    <h2>Create New Survey</h2>
+    
+    <p class="field-hint">Fields marked <span class="req">*</span> are required.</p>
+
+    <form method="POST" id="survey-builder-form" data-dirty-warn>
+        <label for="title">Survey Title <span class="req">*</span></label>
+        <input type="text" id="title" name="title" required minlength="8" maxlength="150"
+               placeholder="e.g. Barangay Health Services Satisfaction Survey 2026"
+               value="">
+        <p class="field-hint">8 to 150 characters. Name the topic so residents know what they are answering.</p>
+
+        <label for="description">Description</label>
+        <textarea id="description" name="description" maxlength="500"
+                  placeholder="One or two sentences on why the barangay is collecting these answers."></textarea>
+        <p class="field-hint">Optional, up to 500 characters.</p>
+
+        <div class="grid-2">
+            <div>
+                <label for="start_date">Opening Date <span class="req">*</span></label>
+                <input type="date" id="start_date" name="start_date" required value="2026-11-05">
+            </div>
+            <div>
+                <label for="end_date">Closing Date <span class="req">*</span></label>
+                <input type="date" id="end_date" name="end_date" required value="2026-11-12">
+            </div>
+        </div>
+
+        <h3>Questions</h3>
+        <div id="questions-container"></div>
+        <button type="button" id="add-question-btn" class="btn-secondary" style="margin-bottom:20px;">+ Add Question</button>
+
+        <div class="form-actions">
+            <button type="submit" class="btn">Save Survey</button>
+            <button type="button" class="btn btn-secondary" id="preview-survey-btn">Preview Survey</button>
+            <a class="btn btn-secondary" href="survey_management.php">Cancel</a>
+        </div>
+    </form>
+</div>
+
+<template id="question-template">
+    <div class="card question-row" style="background:#fafcfb;">
+        <div class="question-row-head">
+            <h4 class="question-row-number">Question</h4>
+            <button type="button" class="remove-question-btn btn-action btn-action-danger" title="Remove this question" aria-label="Remove this question">&times;</button>
+        </div>
+
+        <label>Question Text <span class="req">*</span></label>
+        <input type="text" name="questions[__IDX__][text]" required maxlength="255"
+               placeholder="e.g. How long did you wait before being attended to?">
+
+        <label>Question Type</label>
+        <select name="questions[__IDX__][type]" class="question-type-select">
+            <option value="multiple_choice">Multiple Choice</option>
+            <option value="yesno">Yes/No</option>
+            <option value="rating">Rating Scale (1-5)</option>
+            <option value="short_answer">Short Answer</option>
+        </select>
+
+        <div class="choices-box" style="display:none;">
+            <label>Choices <span class="req">*</span></label>
+            <p class="field-hint">At least two. Blank boxes are ignored when you save.</p>
+            <div class="choices-inputs" data-choice-name="questions[__IDX__][choices]">
+                <div class="choice-row">
+                    <input type="text" name="questions[__IDX__][choices][]" maxlength="150" placeholder="Choice 1">
+                    <button type="button" class="btn-action btn-action-danger remove-choice-btn" title="Remove this choice" aria-label="Remove this choice">&times;</button>
+                </div>
+                <div class="choice-row">
+                    <input type="text" name="questions[__IDX__][choices][]" maxlength="150" placeholder="Choice 2">
+                    <button type="button" class="btn-action btn-action-danger remove-choice-btn" title="Remove this choice" aria-label="Remove this choice">&times;</button>
+                </div>
+            </div>
+            <button type="button" class="add-choice-btn btn-secondary btn-small">+ Add Choice</button>
+        </div>
+    </div>
+</template>
+
+<script>
+(function () {
+    var container = document.getElementById('questions-container');
+    var template = document.getElementById('question-template');
+    var idx = 0;
+
+    // Choice add/remove and the multiple-choice toggle are handled globally in
+    // script.js. Wiring them again here is what produced two choices per click.
+    function renumber() {
+        container.querySelectorAll('.question-row-number').forEach(function (heading, i) {
+            heading.textContent = 'Question ' + (i + 1);
+        });
+    }
+
+    function addQuestion() {
+        var html = template.innerHTML.replaceAll('__IDX__', idx);
+        var wrapper = document.createElement('div');
+        wrapper.innerHTML = html;
+        var node = wrapper.firstElementChild;
+        container.appendChild(node);
+        idx++;
+
+        var select = node.querySelector('.question-type-select');
+        select.dispatchEvent(new Event('change', { bubbles: true }));
+
+        node.querySelector('.remove-question-btn').addEventListener('click', function () {
+            node.remove();
+            renumber();
+        });
+
+        renumber();
+    }
+
+    document.getElementById('add-question-btn').addEventListener('click', addQuestion);
+    addQuestion(); // start with one question row
+
+    // ---------- Preview ----------
+    // Renders the form's current contents the way a resident would see them,
+    // so mistakes are caught before the survey is published.
+    var typeNames = {
+        multiple_choice: 'Multiple Choice',
+        yesno: 'Yes/No',
+        rating: 'Rating Scale (1-5)',
+        short_answer: 'Short Answer'
+    };
+
+    function escapeHtml(text) {
+        var div = document.createElement('div');
+        div.textContent = text;
+        return div.innerHTML;
+    }
+
+    function buildPreview() {
+        var body = document.getElementById('survey-preview-body');
+        var title = document.getElementById('title').value.trim();
+        var description = document.getElementById('description').value.trim();
+        var html = '<h2 style="margin-top:0;">' + (escapeHtml(title) || '<em>Untitled survey</em>') + '</h2>';
+
+        if (description) {
+            html += '<p style="color:var(--muted);">' + escapeHtml(description) + '</p>';
+        }
+        html += '<p class="muted-note">Open ' + escapeHtml(document.getElementById('start_date').value) +
+                ' to ' + escapeHtml(document.getElementById('end_date').value) + '.</p><hr>';
+
+        var rows = container.querySelectorAll('.question-row');
+        if (!rows.length) {
+            html += '<p class="empty-state">No questions added yet.</p>';
+        }
+
+        rows.forEach(function (row, i) {
+            var text = row.querySelector('input[type="text"]').value.trim();
+            var type = row.querySelector('.question-type-select').value;
+            html += '<div style="margin-bottom:18px;">';
+            html += '<p style="font-weight:600;margin-bottom:6px;">' + (i + 1) + '. ' +
+                    (escapeHtml(text) || '<em>Empty question</em>') +
+                    ' <span class="muted-note">(' + typeNames[type] + ')</span></p>';
+
+            if (type === 'multiple_choice') {
+                html += '<ul style="margin:0 0 0 18px;">';
+                var filled = 0;
+                row.querySelectorAll('.choices-inputs input').forEach(function (choice) {
+                    if (choice.value.trim() !== '') {
+                        filled++;
+                        html += '<li>' + escapeHtml(choice.value.trim()) + '</li>';
+                    }
+                });
+                if (!filled) { html += '<li><em>No choices entered - this question cannot be saved yet.</em></li>'; }
+                html += '</ul>';
+            } else if (type === 'yesno') {
+                html += '<p class="muted-note" style="margin:0 0 0 18px;">Yes / No</p>';
+            } else if (type === 'rating') {
+                html += '<p class="muted-note" style="margin:0 0 0 18px;">1 to 5 stars</p>';
+            } else {
+                html += '<p class="muted-note" style="margin:0 0 0 18px;">Free-text answer box</p>';
+            }
+            html += '</div>';
+        });
+
+        body.innerHTML = html;
+        document.getElementById('survey-preview-modal').classList.add('active');
+    }
+
+    document.getElementById('preview-survey-btn').addEventListener('click', buildPreview);
+})();
+</script>
+
+<!-- Preview modal -->
+<div class="modal-overlay" id="survey-preview-modal">
+    <div class="modal-box modal-wide">
+        <button type="button" class="modal-close" data-modal-close>&times;</button>
+        <p class="muted-note">Preview only - nothing is saved until you click Save Survey.</p>
+        <div id="survey-preview-body"></div>
+        <div class="modal-actions">
+            <button type="button" class="btn" data-modal-close>Back to Editing</button>
+        </div>
+    </div>
+</div>
+
+</div><!-- /.container -->
+
+<footer class="site-footer no-print">
+    &copy; 2026 Barangay Health Center &mdash; Survey Management System
+</footer>
+</div><!-- /.app-main -->
+
+<!-- Shared confirmation modal used by every data-confirm link (delete, deactivate, reset, etc.) -->
+<div class="modal-overlay no-print" id="confirm-modal" data-keep-on-close>
+    <div class="modal-box modal-narrow">
+        <button type="button" class="modal-close" data-modal-close aria-label="Close">&times;</button>
+        <div class="modal-icon-warning">!</div>
+        <h2>Please Confirm</h2>
+        <p id="confirm-modal-message" class="modal-text">Are you sure you want to proceed?</p>
+        <div class="modal-actions">
+            <button type="button" class="btn btn-secondary" data-modal-close>Cancel</button>
+            <a href="#" id="confirm-modal-proceed" class="btn btn-danger">Yes, Continue</a>
+        </div>
+    </div>
+</div>
+
+<script src="../assets/js/script.js?v=16"></script>
+</body>
+</html>

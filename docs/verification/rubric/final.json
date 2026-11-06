@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-06",
+  "url": "http://localhost/barangay_survey_system/app/",
+  "buildFiles": 33,
+  "protectedFilesUnchanged": 58,
+  "cssAndLogoByteIdentical": true,
+  "apiAssertions": 2177,
+  "reactTests": 97,
+  "regressionSuites": 12,
+  "apacheBrowserChecks": 124,
+  "unexpectedBrowserDiagnostics": 0,
+  "visualPairs": 21,
+  "visualDifferentPixels": 0,
+  "visualThreshold": 0.15
+}

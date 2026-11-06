@@ -1,0 +1,19 @@
+✔ staff: address queues preserve original PHP text, rows and role visibility (1295.20525ms)
+✔ admin: address queues preserve original PHP text, rows and role visibility (362.510667ms)
+✔ resident React form submits name/address proposal; staff rejection leaves the full profile unchanged (1336.289041ms)
+✔ admin React approval applies a pending resident proposal, refreshes status/session, and keeps unrelated fields (833.583292ms)
+✔ family shared inline review shows complete proposal and leaves no invented success dialog (687.729834ms)
+✔ staff update uses shared dialog with required rejection note, optional approval, and reset on reopen (419.435125ms)
+✔ staff deletion table is read-only; admin reject requires a note, preserves failed input, and can cancel safely (957.220834ms)
+✔ admin approval archives responses; archive restore and purge confirmation preserve original UI (1261.935583ms)
+✔ residency log matches PHP, filters through history, searches, and exposes no mutation (633.297083ms)
+✔ all four screens honor onboarding redirects (18.413417ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 8161.46375
+Passed 212 live request review, PHP parity, authorization, transaction and archive assertions.

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Survey Management - Barangay Health Center Survey System</title>
+<link rel="stylesheet" href="http://localhost/barangay_survey_system/assets/css/style.css?v=30">
+</head>
+<body class="portal-layout">
+
+<aside class="sidebar no-print" id="app-sidebar">
+    <button type="button" class="sidebar-close mobile-nav-close" aria-label="Close navigation" title="Close navigation">&times;</button>
+    <div class="sidebar-header">
+        <div class="sidebar-logo">
+            <img class="sidebar-logo-img" src="http://localhost/barangay_survey_system/assets/css/Logo.png?v=2" alt="Barangay Health Center Logo">
+            <span class="sidebar-logo-text">
+                Barangay Health Center
+                <small>Survey Management System</small>
+            </span>
+        </div>
+                
+                    </div>
+
+    <nav>
+        <a class="nav-item" href="dashboard.php"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9.5 12 3l9 6.5V21a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1Z"/></svg><span>Dashboard</span></a>
+        <a class="nav-item active" href="surveys.php"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6a1 1 0 0 1 1 1v1H8V4a1 1 0 0 1 1-1Z"/><rect x="5" y="5" width="14" height="16" rx="2"/><path d="M9 11h6M9 15h6M9 19h3"/></svg><span>Available Surveys</span></a>
+        <a class="nav-item" href="history.php"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"/><path d="M14 2v6h6"/><path d="M9 15h6M9 11h2"/></svg><span>Submitted Surveys</span></a>
+        <a class="nav-item" href="profile.php"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6 8-6s8 2 8 6"/></svg><span>My Profile</span></a>
+        <a class="nav-item" href="change_password.php"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg><span>Change Password</span></a>
+    </nav>
+
+</aside>
+<div class="nav-drawer-backdrop" id="nav-drawer-backdrop" aria-hidden="true"></div>
+
+<div class="app-main">
+
+<!-- Account indicator: upper-right corner. The profile picture sits beside
+     the account type, and the portal options moved here from the sidebar. -->
+<div class="app-topbar no-print">
+    <button type="button" class="mobile-nav-toggle mobile-nav-trigger" id="mobile-nav-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="app-sidebar">&#9776;</button>
+    <div class="mobile-brand" aria-hidden="true">
+        <img src="http://localhost/barangay_survey_system/assets/css/Logo.png?v=2" alt="">
+        <span>Barangay Health Center<small>Survey Management System</small></span>
+    </div>
+    <div class="account-tab">
+        <button type="button" class="account-chip" id="account-chip" title="React UI Fixture" aria-expanded="false" aria-haspopup="true" aria-controls="account-menu">
+                            <span class="account-avatar">R</span>
+                        <span class="account-meta">
+                <span class="account-name">React UI Fixture</span>
+                <span class="account-type">Resident Portal</span>
+            </span>
+            <svg class="account-caret" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>        </button>
+
+        <div class="account-menu" id="account-menu">
+            <!-- Full name, never truncated, so the chip's "..." can always be resolved -->
+            <span class="account-menu-name">React UI Fixture</span>
+            <span class="account-menu-role">Resident Portal</span>
+            <div class="account-menu-divider"></div>
+            <!-- <span class="account-menu-label">Portals</span> -->
+            <!-- <a class="is-current" href="dashboard.php"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6 8-6s8 2 8 6"/></svg><span>Resident Portal</span></a>
+            <a href="http://localhost/barangay_survey_system/staff/login.php"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2 4 5v6c0 5 3.4 8.7 8 10 4.6-1.3 8-5 8-10V5Z"/><path d="m9 12 2 2 4-4"/></svg><span>Admin Portal</span></a> -->
+            <!-- <div class="account-menu-divider"></div> -->
+            <a href="profile.php"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6 8-6s8 2 8 6"/></svg><span>My Profile</span></a>
+            <a class="account-menu-danger" href="logout.php"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" x2="9" y1="12" y2="12"/></svg><span>Logout</span></a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+<div class="page-head">
+    <div class="page-head-text">
+        <h1>Surveys</h1>
+        <p>Create, edit and publish the surveys residents can answer.</p>
+    </div>
+</div>
+
+<!-- Action sits below the heading rule so it does not crowd the account menu -->
+<div class="page-actions-row">
+    <a class="btn" href="add_survey.php">+ Create New Survey</a>
+</div>
+
+<div class="card">
+    <div class="card-head">
+        <h2 class="card-head-title">All Surveys</h2>
+        <!-- Search sits in the upper-right of the card so surveys stay easy to
+             find as the list grows. Filtering is client-side (see script.js). -->
+        <div class="search-field">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="21" x2="16.65" y1="21" y2="16.65"/></svg>            <input type="search" id="survey-search" data-table-search="surveys-table"
+                   placeholder="Search surveys..." aria-label="Search surveys">
+        </div>
+    </div>
+
+    <table id="surveys-table" class="table-spaced">
+        <tr><th>Title</th><th>Period</th><th>Status</th><th>Responses</th><th>Actions</th></tr>
+                <tr data-search-text="Health Center Services 2026-11-01 2026-11-30 active">
+            <td>Health Center Services</td>
+            <td>2026-11-01 &ndash; 2026-11-30</td>
+            <td><span class="badge badge-active">Active</span></td>
+            <td>12</td>
+            <td>
+                <div class="action-buttons">
+                    <a class="btn-action" title="Edit survey" aria-label="Edit survey"
+                       href="edit_survey.php?id=1"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg></a>
+                    <a class="btn-action" title="Manage questions" aria-label="Manage questions"
+                       href="question_management.php?survey_id=1"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6a1 1 0 0 1 1 1v1H8V4a1 1 0 0 1 1-1Z"/><rect x="5" y="5" width="14" height="16" rx="2"/><path d="M9 11h6M9 15h6M9 19h3"/></svg></a>
+                    <a class="btn-action btn-action-primary" title="View results" aria-label="View results"
+                       href="results_dashboard.php?survey_id=1"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" x2="18" y1="20" y2="10"/><line x1="12" x2="12" y1="20" y2="4"/><line x1="6" x2="6" y1="20" y2="14"/></svg></a>
+                                        <a class="btn-action btn-action-danger" title="Deactivate survey" aria-label="Deactivate survey"
+                       href="survey_management.php?toggle=1"
+                       data-confirm="Deactivate this survey?"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18.36 6.64a9 9 0 1 1-12.73 0"/><line x1="12" x2="12" y1="2" y2="12"/></svg></a>
+                                        <a class="btn-action btn-action-danger" title="Delete survey" aria-label="Delete survey"
+                       href="survey_management.php?delete=1"
+                       data-confirm="Delete “Health Center Services”? This will also delete its questions, choices, responses, and results. This action cannot be undone."><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="3 6 5 6 21 6"/><path d="M8 6V4h8v2M19 6l-1 15H6L5 6"/><path d="M10 11v6M14 11v6"/></svg></a>
+                </div>
+            </td>
+        </tr>
+                <tr data-search-text="Community Wellness 2026-10-01 2026-10-31 inactive">
+            <td>Community Wellness</td>
+            <td>2026-10-01 &ndash; 2026-10-31</td>
+            <td><span class="badge badge-inactive">Inactive</span></td>
+            <td>4</td>
+            <td>
+                <div class="action-buttons">
+                    <a class="btn-action" title="Edit survey" aria-label="Edit survey"
+                       href="edit_survey.php?id=2"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg></a>
+                    <a class="btn-action" title="Manage questions" aria-label="Manage questions"
+                       href="question_management.php?survey_id=2"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6a1 1 0 0 1 1 1v1H8V4a1 1 0 0 1 1-1Z"/><rect x="5" y="5" width="14" height="16" rx="2"/><path d="M9 11h6M9 15h6M9 19h3"/></svg></a>
+                    <a class="btn-action btn-action-primary" title="View results" aria-label="View results"
+                       href="results_dashboard.php?survey_id=2"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" x2="18" y1="20" y2="10"/><line x1="12" x2="12" y1="20" y2="4"/><line x1="6" x2="6" y1="20" y2="14"/></svg></a>
+                                        <a class="btn-action btn-action-success" title="Activate survey" aria-label="Activate survey"
+                       href="survey_management.php?toggle=2"
+                       data-confirm="Activate this survey?"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18.36 6.64a9 9 0 1 1-12.73 0"/><line x1="12" x2="12" y1="2" y2="12"/></svg></a>
+                                        <a class="btn-action btn-action-danger" title="Delete survey" aria-label="Delete survey"
+                       href="survey_management.php?delete=2"
+                       data-confirm="Delete “Community Wellness”? This will also delete its questions, choices, responses, and results. This action cannot be undone."><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="3 6 5 6 21 6"/><path d="M8 6V4h8v2M19 6l-1 15H6L5 6"/><path d="M10 11v6M14 11v6"/></svg></a>
+                </div>
+            </td>
+        </tr>
+                <tr class="no-match-row" style="display:none;"><td colspan="5">No surveys match your search.</td></tr>
+    </table>
+</div>
+</div><!-- /.container -->
+
+<footer class="site-footer no-print">
+    &copy; 2026 Barangay Health Center &mdash; Survey Management System
+</footer>
+</div><!-- /.app-main -->
+
+<!-- Shared confirmation modal used by every data-confirm link (delete, deactivate, reset, etc.) -->
+<div class="modal-overlay no-print" id="confirm-modal" data-keep-on-close>
+    <div class="modal-box modal-narrow">
+        <button type="button" class="modal-close" data-modal-close aria-label="Close">&times;</button>
+        <div class="modal-icon-warning">!</div>
+        <h2>Please Confirm</h2>
+        <p id="confirm-modal-message" class="modal-text">Are you sure you want to proceed?</p>
+        <div class="modal-actions">
+            <button type="button" class="btn btn-secondary" data-modal-close>Cancel</button>
+            <a href="#" id="confirm-modal-proceed" class="btn btn-danger">Yes, Continue</a>
+        </div>
+    </div>
+</div>
+
+<script src="http://localhost/barangay_survey_system/assets/js/script.js?v=16"></script>
+</body>
+</html>

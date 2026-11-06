@@ -1,0 +1,17 @@
+✔ Every list cell, filter/search token, heading and label matches original PHP (1151.572917ms)
+✔ Combined case-insensitive trimmed search and every filter follow original table script (281.77825ms)
+✔ Add form preserves source field labels, required addresses, temporary visibility, title/category and six-month hint (264.437791ms)
+✔ Family controls repeat names, remove rows, and modal reset restores a fresh registration (181.885ms)
+✔ Live React adds permanent, retains validation values, refreshes table and shows exact success hand-over (832.794792ms)
+✔ Live React adds temporary, retains validation values, refreshes table and shows exact success hand-over (948.975458ms)
+✔ Age display singular/plural and residency calendar hints match source examples (0.400834ms)
+✔ Onboarding redirect stays enforced before resident data loads (7.639708ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4045.879916
+Passed 122 resident list/add API and original-PHP parity assertions.

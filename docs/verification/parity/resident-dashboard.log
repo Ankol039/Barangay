@@ -1,0 +1,17 @@
+✔ temporary: all dashboard figures, text, address facts and chart datasets match original PHP (853.961375ms)
+✔ permanent: all dashboard figures, text, address facts and chart datasets match original PHP (548.334667ms)
+✔ empty: all dashboard figures, text, address facts and chart datasets match original PHP (548.877875ms)
+✔ available: detail title, unit, columns, dates, badges and rows match original PHP (547.015833ms)
+✔ completed: detail title, unit, columns, dates, badges and rows match original PHP (549.434792ms)
+✔ assigned: detail title, unit, columns, dates, badges and rows match original PHP (759.578ms)
+✔ empty completion detail and invalid view redirect preserve source behavior (373.542709ms)
+✔ centre text uses original positions and current per-chart options (0.864583ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4537.104708
+Dashboard API: 156 assertions passed against unchanged PHP source and ajax_stats.php.

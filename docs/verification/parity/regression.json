@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-06",
+  "results": [
+    {
+      "name": "shared",
+      "pass": true,
+      "exit": 0,
+      "seconds": 0.82,
+      "reactTests": 10,
+      "apiAssertions": 0
+    },
+    {
+      "name": "authentication",
+      "pass": true,
+      "exit": 0,
+      "seconds": 10.45,
+      "reactTests": 0,
+      "apiAssertions": 266
+    },
+    {
+      "name": "resident-dashboard",
+      "pass": true,
+      "exit": 0,
+      "seconds": 14.4,
+      "reactTests": 8,
+      "apiAssertions": 156
+    },
+    {
+      "name": "resident-survey",
+      "pass": true,
+      "exit": 0,
+      "seconds": 12.94,
+      "reactTests": 5,
+      "apiAssertions": 87
+    },
+    {
+      "name": "resident-profile",
+      "pass": true,
+      "exit": 0,
+      "seconds": 15.67,
+      "reactTests": 7,
+      "apiAssertions": 117
+    },
+    {
+      "name": "staff-dashboard",
+      "pass": true,
+      "exit": 0,
+      "seconds": 14.39,
+      "reactTests": 7,
+      "apiAssertions": 139
+    },
+    {
+      "name": "staff-surveys",
+      "pass": true,
+      "exit": 0,
+      "seconds": 21.46,
+      "reactTests": 9,
+      "apiAssertions": 183
+    },
+    {
+      "name": "staff-results",
+      "pass": true,
+      "exit": 0,
+      "seconds": 29.14,
+      "reactTests": 16,
+      "apiAssertions": 364
+    },
+    {
+      "name": "staff-residents",
+      "pass": true,
+      "exit": 0,
+      "seconds": 19.69,
+      "reactTests": 8,
+      "apiAssertions": 122
+    },
+    {
+      "name": "staff-resident-actions",
+      "pass": true,
+      "exit": 0,
+      "seconds": 52.86,
+      "reactTests": 9,
+      "apiAssertions": 392
+    },
+    {
+      "name": "request-review",
+      "pass": true,
+      "exit": 0,
+      "seconds": 24.78,
+      "reactTests": 10,
+      "apiAssertions": 212
+    },
+    {
+      "name": "staff-users",
+      "pass": true,
+      "exit": 0,
+      "seconds": 23.47,
+      "reactTests": 8,
+      "apiAssertions": 139
+    }
+  ]
+}

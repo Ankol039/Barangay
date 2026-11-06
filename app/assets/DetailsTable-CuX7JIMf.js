@@ -1,0 +1,1 @@
+import"./propTypes-uPk9dAXa.js";import{s as e}from"./Alert-BSXsS26T.js";var t=e();function n({rows:e}){return(0,t.jsx)(`table`,{className:`table-spaced`,children:(0,t.jsx)(`tbody`,{children:e.map(([e,n])=>(0,t.jsxs)(`tr`,{children:[(0,t.jsx)(`th`,{children:e}),(0,t.jsx)(`td`,{children:n})]},e))})})}export{n as t};

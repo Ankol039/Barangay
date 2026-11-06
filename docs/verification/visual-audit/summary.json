@@ -1,0 +1,427 @@
+{
+  "date": "2026-11-06",
+  "engine": "Playwright Chromium (installed Google Chrome)",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "width": 1024,
+      "height": 900
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "threshold": 0.15,
+  "antialiasing": "Pixelmatch default antialias exclusion; raw PNG byte equality is not asserted.",
+  "routes": 28,
+  "scenarios": 136,
+  "pairs": 408,
+  "screenshots": 816,
+  "matched": 387,
+  "intentional": 18,
+  "blocked": 3,
+  "unexpected": [],
+  "interactionStyleChecks": 60,
+  "interactionStyleDifferences": [],
+  "coverage": [
+    {
+      "source": "landing.php",
+      "route": "/landing",
+      "widths": [
+        1440,
+        1024,
+        390
+      ],
+      "status": "Matched"
+    },
+    {
+      "source": "login.php",
+      "route": "/login",
+      "widths": [
+        1440,
+        1024,
+        390
+      ],
+      "status": "Intentional earlier additions retained"
+    },
+    {
+      "source": "resident/dashboard.php",
+      "route": "/resident/dashboard",
+      "widths": [
+        1440,
+        1024,
+        390
+      ],
+      "status": "Matched"
+    },
+    {
+      "source": "resident/stat_detail.php",
+      "route": "/resident/stat-detail",
+      "widths": [
+        1440,
+        1024,
+        390
+      ],
+      "status": "Matched"
+    },
+    {
+      "source": "resident/surveys.php",
+      "route": "/resident/surveys",
+      "widths": [
+        1440,
+        1024,
+        390
+      ],
+      "status": "Matched"
+    },
+    {
+      "source": "resident/survey_form.php",
+      "route": "/resident/survey-form",
+      "widths": [
+        1440,
+        1024,
+        390
+      ],
+      "status": "Matched"
+    },
+    {
+      "source": "resident/confirmation.php",
+      "route": "/resident/confirmation",
+      "widths": [
+        1440,
+        1024,
+        390
+      ],
+      "status": "Matched"
+    },
+    {
+      "source": "resident/history.php",
+      "route": "/resident/history",
+      "widths": [
+        1440,
+        1024,
+        390
+      ],
+      "status": "Matched"
+    },
+    {
+      "source": "resident/view_response.php",
+      "route": "/resident/view-response",
+      "widths": [
+        1440,
+        1024,
+        390
+      ],
+      "status": "Matched"
+    },
+    {
+      "source": "resident/profile.php",
+      "route": "/resident/profile",
+      "widths": [
+        1440,
+        1024,
+        390
+      ],
+      "status": "Matched"
+    },
+    {
+      "source": "resident/change_password.php",
+      "route": "/resident/change-password",
+      "widths": [
+        1440,
+        1024,
+        390
+      ],
+      "status": "Matched"
+    },
+    {
+      "source": "staff/dashboard.php",
+      "route": "/staff/dashboard",
+      "widths": [
+        1440,
+        1024,
+        390
+      ],
+      "status": "Matched"
+    },
+    {
+      "source": "staff/stat_detail.php",
+      "route": "/staff/stat-detail",
+      "widths": [
+        1440,
+        1024,
+        390
+      ],
+      "status": "Matched"
+    },
+    {
+      "source": "staff/survey_management.php",
+      "route": "/staff/survey-management",
+      "widths": [
+        1440,
+        1024,
+        390
+      ],
+      "status": "Intentional earlier additions retained"
+    },
+    {
+      "source": "staff/add_survey.php",
+      "route": "/staff/add-survey",
+      "widths": [
+        1440,
+        1024,
+        390
+      ],
+      "status": "Matched"
+    },
+    {
+      "source": "staff/edit_survey.php",
+      "route": "/staff/edit-survey",
+      "widths": [
+        1440,
+        1024,
+        390
+      ],
+      "status": "Matched"
+    },
+    {
+      "source": "staff/question_management.php",
+      "route": "/staff/question-management",
+      "widths": [
+        1440,
+        1024,
+        390
+      ],
+      "status": "Matched"
+    },
+    {
+      "source": "staff/results_dashboard.php",
+      "route": "/staff/results-dashboard",
+      "widths": [
+        1440,
+        1024,
+        390
+      ],
+      "status": "Matched"
+    },
+    {
+      "source": "staff/reports.php",
+      "route": "/staff/reports",
+      "widths": [
+        1440,
+        1024,
+        390
+      ],
+      "status": "Matched"
+    },
+    {
+      "source": "staff/resident_management.php",
+      "route": "/staff/resident-management",
+      "widths": [
+        1440,
+        1024,
+        390
+      ],
+      "status": "Matched"
+    },
+    {
+      "source": "staff/user_management.php",
+      "route": "/staff/user-management",
+      "widths": [
+        1440,
+        1024,
+        390
+      ],
+      "status": "Matched"
+    },
+    {
+      "source": "staff/complete_profile.php",
+      "route": "/staff/complete-profile",
+      "widths": [
+        1440,
+        1024,
+        390
+      ],
+      "status": "Matched"
+    },
+    {
+      "source": "staff/change_password.php",
+      "route": "/staff/change-password",
+      "widths": [
+        1440,
+        1024,
+        390
+      ],
+      "status": "Matched"
+    },
+    {
+      "source": "staff/address_requests.php",
+      "route": "/staff/address-requests",
+      "widths": [
+        1440,
+        1024,
+        390
+      ],
+      "status": "Matched"
+    },
+    {
+      "source": "staff/family_requests.php",
+      "route": "/staff/family-requests",
+      "widths": [
+        1440,
+        1024,
+        390
+      ],
+      "status": "Blocked: PHP HTTP 500"
+    },
+    {
+      "source": "staff/deletion_requests.php",
+      "route": "/staff/deletion-requests",
+      "widths": [
+        1440,
+        1024,
+        390
+      ],
+      "status": "Matched"
+    },
+    {
+      "source": "staff/deleted_accounts.php",
+      "route": "/staff/deleted-accounts",
+      "widths": [
+        1440,
+        1024,
+        390
+      ],
+      "status": "Matched"
+    },
+    {
+      "source": "staff/residency_records.php",
+      "route": "/staff/residency-records",
+      "widths": [
+        1440,
+        1024,
+        390
+      ],
+      "status": "Matched"
+    }
+  ],
+  "recaptures": [
+    {
+      "name": "staff-results_dashboard-unselected",
+      "width": 1440,
+      "reason": "Recaptured with stable fixture login-history data; native-select raster recheck."
+    },
+    {
+      "name": "staff-results_dashboard-unselected",
+      "width": 1024,
+      "reason": "Recaptured with stable fixture login-history data; native-select raster recheck."
+    },
+    {
+      "name": "staff-results_dashboard-unselected",
+      "width": 390,
+      "reason": "Recaptured with stable fixture login-history data; native-select raster recheck."
+    },
+    {
+      "name": "admin-dashboard",
+      "width": 1440,
+      "reason": "Recaptured with stable fixture login-history data; native-select raster recheck."
+    },
+    {
+      "name": "admin-dashboard",
+      "width": 1024,
+      "reason": "Recaptured with stable fixture login-history data; native-select raster recheck."
+    },
+    {
+      "name": "admin-dashboard",
+      "width": 390,
+      "reason": "Recaptured with stable fixture login-history data; native-select raster recheck."
+    },
+    {
+      "name": "staff-first-password",
+      "width": 1440,
+      "reason": "Verified the corrected contiguous staff onboarding reminder text."
+    },
+    {
+      "name": "staff-first-password",
+      "width": 1024,
+      "reason": "Verified the corrected contiguous staff onboarding reminder text."
+    },
+    {
+      "name": "staff-first-password",
+      "width": 390,
+      "reason": "Verified the corrected contiguous staff onboarding reminder text."
+    },
+    {
+      "name": "resident-nav-focus",
+      "width": 1440,
+      "reason": "Waited for the drawer transition and asserted that a navigation link actually received keyboard focus."
+    },
+    {
+      "name": "resident-nav-focus",
+      "width": 1024,
+      "reason": "Waited for the drawer transition and asserted that a navigation link actually received keyboard focus."
+    },
+    {
+      "name": "resident-nav-focus",
+      "width": 390,
+      "reason": "Waited for the drawer transition and asserted that a navigation link actually received keyboard focus."
+    },
+    {
+      "name": "staff-nav-focus",
+      "width": 1440,
+      "reason": "Waited for the drawer transition and asserted that a navigation link actually received keyboard focus."
+    },
+    {
+      "name": "staff-nav-focus",
+      "width": 1024,
+      "reason": "Waited for the drawer transition and asserted that a navigation link actually received keyboard focus."
+    },
+    {
+      "name": "staff-nav-focus",
+      "width": 390,
+      "reason": "Waited for the drawer transition and asserted that a navigation link actually received keyboard focus."
+    },
+    {
+      "name": "admin-nav-focus",
+      "width": 1440,
+      "reason": "Waited for the drawer transition and asserted that a navigation link actually received keyboard focus."
+    },
+    {
+      "name": "admin-nav-focus",
+      "width": 1024,
+      "reason": "Waited for the drawer transition and asserted that a navigation link actually received keyboard focus."
+    },
+    {
+      "name": "admin-nav-focus",
+      "width": 390,
+      "reason": "Waited for the drawer transition and asserted that a navigation link actually received keyboard focus."
+    }
+  ],
+  "errors": [
+    {
+      "case": "admin-family_requests",
+      "width": 1440,
+      "version": "php",
+      "kind": "baseline-unavailable",
+      "httpStatus": 500
+    },
+    {
+      "case": "admin-family_requests",
+      "width": 1024,
+      "version": "php",
+      "kind": "baseline-unavailable",
+      "httpStatus": 500
+    },
+    {
+      "case": "admin-family_requests",
+      "width": 390,
+      "version": "php",
+      "kind": "baseline-unavailable",
+      "httpStatus": 500
+    }
+  ]
+}

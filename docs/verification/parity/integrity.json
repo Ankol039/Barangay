@@ -1,0 +1,9 @@
+{
+  "protected_files": 56,
+  "changed_or_missing": [],
+  "new_protected_files": [],
+  "asset_copies_identical": {
+    "style.css": true,
+    "Logo.png": true
+  }
+}

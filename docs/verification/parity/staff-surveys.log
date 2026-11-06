@@ -1,0 +1,18 @@
+✔ builder matches original labels/limits/default dates; choice toggle, minimum, preview, dirty discard (1087.898583ms)
+✔ rejected builder POST preserves metadata and rebuilds one blank question as PHP does (458.314792ms)
+✔ React creates a survey with all four types and original list destination (486.694875ms)
+✔ list source rows, search + status filters, toggle confirmation cancel and continue (528.619875ms)
+✔ shared edit form matches PHP, keeps validation message and saves metadata (711.537541ms)
+✔ question table matches original, moves adjacent rows and shows source success modal (516.756125ms)
+✔ question edit retains IDs, explicit removed choices, failed saves and dirty modal state (269.810666ms)
+✔ add errors retain modal values, successful add and question delete resequence (416.737875ms)
+✔ survey deletion uses original warning, cancel is inert, deletion clears survey and missing IDs redirect (917.938583ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5795.784333
+Survey management API: 183 assertions passed.

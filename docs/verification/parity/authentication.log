@@ -1,0 +1,1 @@
+PASS: 266 assertions; curl login/session/password/logout, collision and account-state checks; schema unchanged; throwaway accounts and history removed.

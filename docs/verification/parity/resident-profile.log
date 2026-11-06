@@ -1,0 +1,16 @@
+✔ temporary, permanent and empty profiles match original PHP tables and section text (2333.707834ms)
+✔ contact form saves immediately, reports failures, retains values and protects dirty dismissal (960.734875ms)
+✔ birthdate submission creates pending state and name modal warns and refuses a second request (787.760167ms)
+✔ family repeaters renumber, preserve Others, reveal rows, and submit reviewed JSON without changing the profile (763.158875ms)
+✔ temporary request includes seven extra address parts and stored custom title; permanent omits temporary fields (827.545208ms)
+✔ multipart client lets the browser set the boundary and does not JSON encode the JPEG (1.284375ms)
+✔ crop hook covers the canvas, zooms around its center, clamps scaled pointer dragging and exports JPEG (5.692291ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 6046.316583
+Resident profile API: 117 assertions passed.

@@ -1,0 +1,5 @@
+/* Portal tabs requested for React; original shared stylesheet is unchanged. */
+.auth-portals { display: flex; gap: 6px; margin: 18px 0; border-bottom: 1px solid var(--border); }
+.auth-portals [role="tab"] { flex: 1; border-radius: 6px 6px 0 0; background: transparent; color: var(--muted); border: 0; border-bottom: 3px solid transparent; padding: 10px 8px; }
+.auth-portals [aria-selected="true"] { color: var(--primary); border-bottom-color: var(--primary); }
+.auth-switch-hint { font-size: .82rem; margin-top: 16px; }

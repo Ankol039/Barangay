@@ -1,0 +1,25 @@
+✔ All result, report, CSV, stat detail and existing chart SQL remains identical to PHP (187.085167ms)
+✔ Results populated: every figure, option, rating, text/date, bar width/color and source card matches PHP (785.255917ms)
+✔ Results empty: every figure, option, rating, text/date, bar width/color and source card matches PHP (527.005334ms)
+✔ Report populated: all source metadata, counts, zero rows and uncapped text match PHP (526.646292ms)
+✔ Report empty: all source metadata, counts, zero rows and uncapped text match PHP (524.588625ms)
+✔ Live answer search follows source case-insensitive, untrimmed matching, no-match and clear behavior (673.734167ms)
+✔ Selector auto-loads a different survey, updates URL, supports back/forward through router, and resets question search (1069.804041ms)
+✔ Stat detail total_surveys: source heading, count, table and badge text/classes match (550.322041ms)
+✔ Stat detail active_surveys: source heading, count, table and badge text/classes match (526.775834ms)
+✔ Stat detail total_residents: source heading, count, table and badge text/classes match (521.22725ms)
+✔ Stat detail total_responses: source heading, count, table and badge text/classes match (561.711209ms)
+✔ Stat detail staff_accounts: source heading, count, table and badge text/classes match (573.318959ms)
+✔ Stat detail deactivated_residents: source heading, count, table and badge text/classes match (535.885917ms)
+✔ Stat detail deactivated_staff: source heading, count, table and badge text/classes match (623.694125ms)
+✔ Stat detail recent_logins: source heading, count, table and badge text/classes match (599.762333ms)
+✔ Invalid views, missing survey, admin restriction, empty selector and failed transport are handled (2350.226958ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 11492.733083
+Passed 364 staff results/report/stat API assertions.

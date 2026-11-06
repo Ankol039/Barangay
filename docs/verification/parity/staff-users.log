@@ -1,0 +1,17 @@
+✔ admin: user page tables and labels match original PHP (1347.634709ms)
+✔ staff: user page tables and labels match original PHP (525.198333ms)
+✔ admin profile is read-only and preserves original employment record/photo content (469.053833ms)
+✔ create staff retains validation values and shows a one-time printable hand-over slip (1007.725958ms)
+✔ shared cropper posts to staff photo endpoint, refreshes the avatar, resets the form, and removes the photo (871.257083ms)
+✔ new staff logs in, changes password, completes onboarding, and gains navigation (1584.609584ms)
+✔ post-onboarding address changes request review, lock address inputs, and permit contact saves (810.132042ms)
+✔ admin toggle, reset and archive actions confirm, refresh the roster, and report source outcomes (1939.05275ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 8923.598958
+Passed 139 live staff user/profile, source parity, onboarding, authorization and photo assertions.

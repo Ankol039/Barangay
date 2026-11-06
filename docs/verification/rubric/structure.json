@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-06",
+  "modules": 177,
+  "components": 175,
+  "propContracts": 132,
+  "largestComponent": {
+    "file": "frontend/src/components/landing/LandingDecoration.jsx",
+    "name": "LandingDecoration",
+    "lines": 105,
+    "props": []
+  },
+  "keyedLists": 85,
+  "unused": [],
+  "repeatedMarkup": [],
+  "failures": []
+}

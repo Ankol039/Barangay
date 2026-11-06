@@ -1,0 +1,40 @@
+
+> barangay-survey-frontend@0.0.0 build
+> vite build
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 199 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                               0.70 kB │ gzip:   0.37 kB
+dist/assets/Logo-D-BKB-9t.png               314.62 kB
+dist/assets/UserManagement-6C_Zjq96.css       0.17 kB │ gzip:   0.12 kB
+dist/assets/index-BRl_AEXa.css               80.91 kB │ gzip:  15.66 kB
+dist/assets/useDirtyWarning-B_CjZYE2.js       0.71 kB │ gzip:   0.44 kB
+dist/assets/useRequestQueue-22lqBkRF.js       1.05 kB │ gzip:   0.58 kB
+dist/assets/AddressFields-B062Fjh3.js         2.21 kB │ gzip:   1.00 kB
+dist/assets/residentForm-BW_k_ObK.js          2.33 kB │ gzip:   1.08 kB
+dist/assets/DataTable-DzoZC-25.js             2.43 kB │ gzip:   1.08 kB
+dist/assets/StatDetail-UzcLWh77.js            2.46 kB │ gzip:   1.10 kB
+dist/assets/DeletionRequests-DxOxnR6D.js      3.14 kB │ gzip:   1.26 kB
+dist/assets/SurveyManagement-Bkqy4S_J.js      3.44 kB │ gzip:   1.42 kB
+dist/assets/QuestionEditor-C3uNt-m0.js        3.89 kB │ gzip:   1.47 kB
+dist/assets/RequestCard-DsgcWM8k.js           4.00 kB │ gzip:   1.53 kB
+dist/assets/DeletedAccounts-B2ldxkNr.js       4.52 kB │ gzip:   1.71 kB
+dist/assets/ResidencyRecords-C7fFUIUt.js      5.10 kB │ gzip:   1.86 kB
+dist/assets/AddressRequests-DnlDTTSH.js       5.25 kB │ gzip:   1.54 kB
+dist/assets/QuestionManagement-C_REBOCo.js    5.51 kB │ gzip:   1.98 kB
+dist/assets/FamilyFields-Dtgm7jxH.js          6.20 kB │ gzip:   2.09 kB
+dist/assets/PhotoUploader-7oC5n3vC.js         6.62 kB │ gzip:   2.59 kB
+dist/assets/SurveyEditor-DCxxskQ7.js          6.65 kB │ gzip:   2.43 kB
+dist/assets/CompleteProfile-DkQ3sirY.js       7.37 kB │ gzip:   2.81 kB
+dist/assets/Results-DlL5E0mD.js               9.05 kB │ gzip:   3.11 kB
+dist/assets/UserManagement-CUtRQYzG.js       10.74 kB │ gzip:   3.40 kB
+dist/assets/Profile-CmGXYh23.js              11.88 kB │ gzip:   3.73 kB
+dist/assets/Dashboard-B5et8ZI3.js            17.69 kB │ gzip:   5.80 kB
+dist/assets/ResidentManagement-BQELjMaM.js   22.29 kB │ gzip:   6.35 kB
+dist/assets/Alert-BcUYsGg-.js               143.35 kB │ gzip:  46.92 kB
+dist/assets/index-DEdHRdRs.js               369.64 kB │ gzip: 119.18 kB
+
+✓ built in 290ms

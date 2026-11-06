@@ -1,0 +1,302 @@
+{
+  "desktop": {
+    "php": [
+      {
+        "rect": {
+          "height": 82.51,
+          "width": 967,
+          "x": 274,
+          "y": 20
+        },
+        "title": "My Profile"
+      },
+      {
+        "rect": {
+          "height": 1945.65,
+          "width": 967,
+          "x": 274,
+          "y": 124.51
+        },
+        "title": "Profile Overview"
+      },
+      {
+        "rect": {
+          "height": 451.5,
+          "width": 475.5,
+          "x": 274,
+          "y": 124.51
+        },
+        "title": "Profile Overview"
+      },
+      {
+        "rect": {
+          "height": 179.63,
+          "width": 475.5,
+          "x": 274,
+          "y": 592.01
+        },
+        "title": "Personal Details"
+      },
+      {
+        "rect": {
+          "height": 647.57,
+          "width": 475.5,
+          "x": 274,
+          "y": 787.63
+        },
+        "title": "Contact Information"
+      },
+      {
+        "rect": {
+          "height": 602.95,
+          "width": 475.5,
+          "x": 274,
+          "y": 1451.2
+        },
+        "title": "Family & Household"
+      },
+      {
+        "rect": {
+          "height": 502.26,
+          "width": 475.5,
+          "x": 765.5,
+          "y": 124.51
+        },
+        "title": "Profile Photo"
+      },
+      {
+        "rect": {
+          "height": 60.83,
+          "width": 1015,
+          "x": 250,
+          "y": 2098.16
+        },
+        "title": "site-footer no-print"
+      }
+    ],
+    "react": [
+      {
+        "rect": {
+          "height": 82.51,
+          "width": 967,
+          "x": 274,
+          "y": 20
+        },
+        "title": "My Profile"
+      },
+      {
+        "rect": {
+          "height": 1945.65,
+          "width": 967,
+          "x": 274,
+          "y": 124.51
+        },
+        "title": "Profile Overview"
+      },
+      {
+        "rect": {
+          "height": 451.5,
+          "width": 475.5,
+          "x": 274,
+          "y": 124.51
+        },
+        "title": "Profile Overview"
+      },
+      {
+        "rect": {
+          "height": 179.63,
+          "width": 475.5,
+          "x": 274,
+          "y": 592.01
+        },
+        "title": "Personal Details"
+      },
+      {
+        "rect": {
+          "height": 647.57,
+          "width": 475.5,
+          "x": 274,
+          "y": 787.63
+        },
+        "title": "Contact Information"
+      },
+      {
+        "rect": {
+          "height": 602.95,
+          "width": 475.5,
+          "x": 274,
+          "y": 1451.2
+        },
+        "title": "Family & Household"
+      },
+      {
+        "rect": {
+          "height": 502.26,
+          "width": 475.5,
+          "x": 765.5,
+          "y": 124.51
+        },
+        "title": "Profile Photo"
+      },
+      {
+        "rect": {
+          "height": 60.83,
+          "width": 1015,
+          "x": 250,
+          "y": 2098.16
+        },
+        "title": "site-footer no-print"
+      }
+    ]
+  },
+  "phone": {
+    "php": [
+      {
+        "rect": {
+          "height": 70.33,
+          "width": 351,
+          "x": 12,
+          "y": 67.3
+        },
+        "title": "My Profile"
+      },
+      {
+        "rect": {
+          "height": 2368.5,
+          "width": 351,
+          "x": 12,
+          "y": 153.63
+        },
+        "title": "Profile Overview"
+      },
+      {
+        "rect": {
+          "height": 406.63,
+          "width": 351,
+          "x": 12,
+          "y": 153.63
+        },
+        "title": "Profile Overview"
+      },
+      {
+        "rect": {
+          "height": 209.44,
+          "width": 351,
+          "x": 12,
+          "y": 574.25
+        },
+        "title": "Personal Details"
+      },
+      {
+        "rect": {
+          "height": 557.86,
+          "width": 351,
+          "x": 12,
+          "y": 797.69
+        },
+        "title": "Contact Information"
+      },
+      {
+        "rect": {
+          "height": 632.73,
+          "width": 351,
+          "x": 12,
+          "y": 1369.55
+        },
+        "title": "Family & Household"
+      },
+      {
+        "rect": {
+          "height": 475.84,
+          "width": 351,
+          "x": 12,
+          "y": 2032.28
+        },
+        "title": "Profile Photo"
+      },
+      {
+        "rect": {
+          "height": 80.66,
+          "width": 375,
+          "x": 0,
+          "y": 2550.13
+        },
+        "title": "site-footer no-print"
+      }
+    ],
+    "react": [
+      {
+        "rect": {
+          "height": 70.33,
+          "width": 351,
+          "x": 12,
+          "y": 67.3
+        },
+        "title": "My Profile"
+      },
+      {
+        "rect": {
+          "height": 2368.5,
+          "width": 351,
+          "x": 12,
+          "y": 153.63
+        },
+        "title": "Profile Overview"
+      },
+      {
+        "rect": {
+          "height": 406.63,
+          "width": 351,
+          "x": 12,
+          "y": 153.63
+        },
+        "title": "Profile Overview"
+      },
+      {
+        "rect": {
+          "height": 209.44,
+          "width": 351,
+          "x": 12,
+          "y": 574.25
+        },
+        "title": "Personal Details"
+      },
+      {
+        "rect": {
+          "height": 557.86,
+          "width": 351,
+          "x": 12,
+          "y": 797.69
+        },
+        "title": "Contact Information"
+      },
+      {
+        "rect": {
+          "height": 632.73,
+          "width": 351,
+          "x": 12,
+          "y": 1369.55
+        },
+        "title": "Family & Household"
+      },
+      {
+        "rect": {
+          "height": 475.84,
+          "width": 351,
+          "x": 12,
+          "y": 2032.28
+        },
+        "title": "Profile Photo"
+      },
+      {
+        "rect": {
+          "height": 80.66,
+          "width": 375,
+          "x": 0,
+          "y": 2550.13
+        },
+        "title": "site-footer no-print"
+      }
+    ]
+  }
+}

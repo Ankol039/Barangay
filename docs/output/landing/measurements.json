@@ -1,0 +1,1178 @@
+{
+  "desktop": {
+    "php": {
+      "bodyClass": "",
+      "height": 3589,
+      "icons": 49,
+      "images": true,
+      "reveal": [
+        {
+          "delay": "0",
+          "visible": true
+        },
+        {
+          "delay": "40",
+          "visible": true
+        },
+        {
+          "delay": "60",
+          "visible": true
+        },
+        {
+          "delay": "80",
+          "visible": true
+        },
+        {
+          "delay": "80",
+          "visible": true
+        },
+        {
+          "delay": "120",
+          "visible": true
+        },
+        {
+          "delay": "160",
+          "visible": true
+        },
+        {
+          "delay": "200",
+          "visible": false
+        },
+        {
+          "delay": "240",
+          "visible": false
+        },
+        {
+          "delay": "280",
+          "visible": false
+        },
+        {
+          "delay": "320",
+          "visible": true
+        },
+        {
+          "delay": "360",
+          "visible": false
+        },
+        {
+          "delay": "400",
+          "visible": false
+        },
+        {
+          "delay": "440",
+          "visible": false
+        },
+        {
+          "delay": "480",
+          "visible": false
+        },
+        {
+          "delay": "520",
+          "visible": false
+        },
+        {
+          "delay": "560",
+          "visible": false
+        },
+        {
+          "delay": "620",
+          "visible": false
+        },
+        {
+          "delay": "660",
+          "visible": false
+        },
+        {
+          "delay": "700",
+          "visible": false
+        },
+        {
+          "delay": "720",
+          "visible": false
+        }
+      ],
+      "sections": [
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 69,
+            "width": 1425,
+            "x": 0,
+            "y": 0
+          },
+          "selector": "HEADER"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 552,
+            "width": 1425,
+            "x": 0,
+            "y": 0
+          },
+          "selector": "hero"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 326.453125,
+            "width": 568,
+            "x": 112.5,
+            "y": 149.7734375
+          },
+          "selector": "hero-content reveal is-visible"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "font": "16px",
+          "rect": {
+            "height": 350,
+            "width": 568,
+            "x": 744.5,
+            "y": 138
+          },
+          "selector": "hero-visual reveal is-visible"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 633.6640625,
+            "width": 1425,
+            "x": 0,
+            "y": 552
+          },
+          "selector": "benefits"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "font": "16px",
+          "rect": {
+            "height": 350,
+            "width": 576,
+            "x": 736.5,
+            "y": 765.025390625
+          },
+          "selector": "checklist-visual reveal is-visible"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 907.6640625,
+            "width": 1425,
+            "x": 0,
+            "y": 1185.6640625
+          },
+          "selector": "features"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 296,
+            "width": 378.6640625,
+            "x": 112.5,
+            "y": 1409.328125
+          },
+          "selector": "card reveal"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 296,
+            "width": 378.6640625,
+            "x": 523.1640625,
+            "y": 1409.328125
+          },
+          "selector": "card reveal"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 296,
+            "width": 378.6640625,
+            "x": 933.828125,
+            "y": 1409.328125
+          },
+          "selector": "card reveal"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 296,
+            "width": 378.6640625,
+            "x": 112.5,
+            "y": 1737.328125
+          },
+          "selector": "card reveal"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 296,
+            "width": 378.6640625,
+            "x": 523.1640625,
+            "y": 1737.328125
+          },
+          "selector": "card reveal"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 296,
+            "width": 378.6640625,
+            "x": 933.828125,
+            "y": 1737.328125
+          },
+          "selector": "card reveal"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 289.5703125,
+            "width": 1361,
+            "x": 32,
+            "y": 2117.328125
+          },
+          "selector": "about"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 263.9765625,
+            "width": 1361,
+            "x": 32,
+            "y": 2454.8984375
+          },
+          "selector": "careers"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 238.3828125,
+            "width": 1361,
+            "x": 32,
+            "y": 2766.875
+          },
+          "selector": "contact"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "font": "16px",
+          "rect": {
+            "height": 202.390625,
+            "width": 1361,
+            "x": 32,
+            "y": 3105.2578125
+          },
+          "selector": "cta-band reveal"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "font": "15.2px",
+          "rect": {
+            "height": 293.4609375,
+            "width": 1425,
+            "x": 0,
+            "y": 3295.6484375
+          },
+          "selector": "FOOTER"
+        }
+      ],
+      "width": 1440
+    },
+    "react": {
+      "bodyClass": "landing-page",
+      "height": 3589,
+      "icons": 49,
+      "images": true,
+      "reveal": [
+        {
+          "delay": "0",
+          "visible": true
+        },
+        {
+          "delay": "40",
+          "visible": true
+        },
+        {
+          "delay": "60",
+          "visible": true
+        },
+        {
+          "delay": "80",
+          "visible": true
+        },
+        {
+          "delay": "80",
+          "visible": true
+        },
+        {
+          "delay": "120",
+          "visible": true
+        },
+        {
+          "delay": "160",
+          "visible": true
+        },
+        {
+          "delay": "200",
+          "visible": false
+        },
+        {
+          "delay": "240",
+          "visible": false
+        },
+        {
+          "delay": "280",
+          "visible": false
+        },
+        {
+          "delay": "320",
+          "visible": true
+        },
+        {
+          "delay": "360",
+          "visible": false
+        },
+        {
+          "delay": "400",
+          "visible": false
+        },
+        {
+          "delay": "440",
+          "visible": false
+        },
+        {
+          "delay": "480",
+          "visible": false
+        },
+        {
+          "delay": "520",
+          "visible": false
+        },
+        {
+          "delay": "560",
+          "visible": false
+        },
+        {
+          "delay": "620",
+          "visible": false
+        },
+        {
+          "delay": "660",
+          "visible": false
+        },
+        {
+          "delay": "700",
+          "visible": false
+        },
+        {
+          "delay": "720",
+          "visible": false
+        }
+      ],
+      "sections": [
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 69,
+            "width": 1425,
+            "x": 0,
+            "y": 0
+          },
+          "selector": "HEADER"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 552,
+            "width": 1425,
+            "x": 0,
+            "y": 0
+          },
+          "selector": "hero"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 326.453125,
+            "width": 568,
+            "x": 112.5,
+            "y": 149.7734375
+          },
+          "selector": "hero-content reveal is-visible"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "font": "16px",
+          "rect": {
+            "height": 350,
+            "width": 568,
+            "x": 744.5,
+            "y": 138
+          },
+          "selector": "hero-visual reveal is-visible"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 633.6640625,
+            "width": 1425,
+            "x": 0,
+            "y": 552
+          },
+          "selector": "benefits"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "font": "16px",
+          "rect": {
+            "height": 350,
+            "width": 576,
+            "x": 736.5,
+            "y": 763.6640625
+          },
+          "selector": "checklist-visual reveal is-visible"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 907.6640625,
+            "width": 1425,
+            "x": 0,
+            "y": 1185.6640625
+          },
+          "selector": "features"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 296,
+            "width": 378.6640625,
+            "x": 112.5,
+            "y": 1409.328125
+          },
+          "selector": "card reveal"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 296,
+            "width": 378.6640625,
+            "x": 523.1640625,
+            "y": 1409.328125
+          },
+          "selector": "card reveal"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 296,
+            "width": 378.6640625,
+            "x": 933.828125,
+            "y": 1409.328125
+          },
+          "selector": "card reveal"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 296,
+            "width": 378.6640625,
+            "x": 112.5,
+            "y": 1737.328125
+          },
+          "selector": "card reveal"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 296,
+            "width": 378.6640625,
+            "x": 523.1640625,
+            "y": 1737.328125
+          },
+          "selector": "card reveal"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 296,
+            "width": 378.6640625,
+            "x": 933.828125,
+            "y": 1737.328125
+          },
+          "selector": "card reveal"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 289.5703125,
+            "width": 1361,
+            "x": 32,
+            "y": 2117.328125
+          },
+          "selector": "about"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 263.9765625,
+            "width": 1361,
+            "x": 32,
+            "y": 2454.8984375
+          },
+          "selector": "careers"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 238.3828125,
+            "width": 1361,
+            "x": 32,
+            "y": 2766.875
+          },
+          "selector": "contact"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "font": "16px",
+          "rect": {
+            "height": 202.390625,
+            "width": 1361,
+            "x": 32,
+            "y": 3105.2578125
+          },
+          "selector": "cta-band reveal"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "font": "15.2px",
+          "rect": {
+            "height": 293.4609375,
+            "width": 1425,
+            "x": 0,
+            "y": 3295.6484375
+          },
+          "selector": "FOOTER"
+        }
+      ],
+      "width": 1440
+    }
+  },
+  "phone": {
+    "php": {
+      "bodyClass": "",
+      "height": 6266,
+      "icons": 49,
+      "images": true,
+      "reveal": [
+        {
+          "delay": "0",
+          "visible": true
+        },
+        {
+          "delay": "40",
+          "visible": true
+        },
+        {
+          "delay": "60",
+          "visible": true
+        },
+        {
+          "delay": "80",
+          "visible": true
+        },
+        {
+          "delay": "80",
+          "visible": true
+        },
+        {
+          "delay": "120",
+          "visible": true
+        },
+        {
+          "delay": "160",
+          "visible": true
+        },
+        {
+          "delay": "200",
+          "visible": false
+        },
+        {
+          "delay": "240",
+          "visible": false
+        },
+        {
+          "delay": "280",
+          "visible": false
+        },
+        {
+          "delay": "320",
+          "visible": true
+        },
+        {
+          "delay": "360",
+          "visible": false
+        },
+        {
+          "delay": "400",
+          "visible": false
+        },
+        {
+          "delay": "440",
+          "visible": false
+        },
+        {
+          "delay": "480",
+          "visible": false
+        },
+        {
+          "delay": "520",
+          "visible": false
+        },
+        {
+          "delay": "560",
+          "visible": false
+        },
+        {
+          "delay": "620",
+          "visible": false
+        },
+        {
+          "delay": "660",
+          "visible": false
+        },
+        {
+          "delay": "700",
+          "visible": false
+        },
+        {
+          "delay": "720",
+          "visible": false
+        }
+      ],
+      "sections": [
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 129,
+            "width": 375,
+            "x": 0,
+            "y": 0
+          },
+          "selector": "HEADER"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 881.703125,
+            "width": 375,
+            "x": 0,
+            "y": 0
+          },
+          "selector": "hero"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 341.953125,
+            "width": 343,
+            "x": 16,
+            "y": 106
+          },
+          "selector": "hero-content reveal is-visible"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "font": "16px",
+          "rect": {
+            "height": 369.75,
+            "width": 343,
+            "x": 16,
+            "y": 479.953125
+          },
+          "selector": "hero-visual reveal is-visible"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 1100.609375,
+            "width": 375,
+            "x": 0,
+            "y": 881.703125
+          },
+          "selector": "benefits"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "font": "16px",
+          "rect": {
+            "height": 350,
+            "width": 327,
+            "x": 24,
+            "y": 1584.3125
+          },
+          "selector": "checklist-visual reveal is-visible"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 2146.8671875,
+            "width": 375,
+            "x": 0,
+            "y": 1982.3125
+          },
+          "selector": "features"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 294,
+            "width": 327,
+            "x": 24,
+            "y": 2169.1796875
+          },
+          "selector": "card reveal"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 294,
+            "width": 327,
+            "x": 24,
+            "y": 2495.1796875
+          },
+          "selector": "card reveal"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 294,
+            "width": 327,
+            "x": 24,
+            "y": 2821.1796875
+          },
+          "selector": "card reveal"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 294,
+            "width": 327,
+            "x": 24,
+            "y": 3147.1796875
+          },
+          "selector": "card reveal"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 294,
+            "width": 327,
+            "x": 24,
+            "y": 3473.1796875
+          },
+          "selector": "card reveal"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 294,
+            "width": 327,
+            "x": 24,
+            "y": 3799.1796875
+          },
+          "selector": "card reveal"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 404.7421875,
+            "width": 311,
+            "x": 32,
+            "y": 4153.1796875
+          },
+          "selector": "about"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 379.1484375,
+            "width": 311,
+            "x": 32,
+            "y": 4605.921875
+          },
+          "selector": "careers"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 327.9609375,
+            "width": 311,
+            "x": 32,
+            "y": 5033.0703125
+          },
+          "selector": "contact"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "font": "16px",
+          "rect": {
+            "height": 317.578125,
+            "width": 311,
+            "x": 32,
+            "y": 5461.03125
+          },
+          "selector": "cta-band reveal"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "font": "15.2px",
+          "rect": {
+            "height": 499.2578125,
+            "width": 375,
+            "x": 0,
+            "y": 5766.609375
+          },
+          "selector": "FOOTER"
+        }
+      ],
+      "width": 390
+    },
+    "react": {
+      "bodyClass": "landing-page",
+      "height": 6266,
+      "icons": 49,
+      "images": true,
+      "reveal": [
+        {
+          "delay": "0",
+          "visible": true
+        },
+        {
+          "delay": "40",
+          "visible": true
+        },
+        {
+          "delay": "60",
+          "visible": true
+        },
+        {
+          "delay": "80",
+          "visible": true
+        },
+        {
+          "delay": "80",
+          "visible": true
+        },
+        {
+          "delay": "120",
+          "visible": true
+        },
+        {
+          "delay": "160",
+          "visible": true
+        },
+        {
+          "delay": "200",
+          "visible": false
+        },
+        {
+          "delay": "240",
+          "visible": false
+        },
+        {
+          "delay": "280",
+          "visible": false
+        },
+        {
+          "delay": "320",
+          "visible": true
+        },
+        {
+          "delay": "360",
+          "visible": false
+        },
+        {
+          "delay": "400",
+          "visible": false
+        },
+        {
+          "delay": "440",
+          "visible": false
+        },
+        {
+          "delay": "480",
+          "visible": false
+        },
+        {
+          "delay": "520",
+          "visible": false
+        },
+        {
+          "delay": "560",
+          "visible": false
+        },
+        {
+          "delay": "620",
+          "visible": false
+        },
+        {
+          "delay": "660",
+          "visible": false
+        },
+        {
+          "delay": "700",
+          "visible": false
+        },
+        {
+          "delay": "720",
+          "visible": false
+        }
+      ],
+      "sections": [
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 129,
+            "width": 375,
+            "x": 0,
+            "y": 0
+          },
+          "selector": "HEADER"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 881.703125,
+            "width": 375,
+            "x": 0,
+            "y": 0
+          },
+          "selector": "hero"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 341.953125,
+            "width": 343,
+            "x": 16,
+            "y": 106
+          },
+          "selector": "hero-content reveal is-visible"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "font": "16px",
+          "rect": {
+            "height": 369.75,
+            "width": 343,
+            "x": 16,
+            "y": 479.953125
+          },
+          "selector": "hero-visual reveal is-visible"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 1100.609375,
+            "width": 375,
+            "x": 0,
+            "y": 881.703125
+          },
+          "selector": "benefits"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "font": "16px",
+          "rect": {
+            "height": 350,
+            "width": 327,
+            "x": 24,
+            "y": 1584.3125
+          },
+          "selector": "checklist-visual reveal is-visible"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 2146.8671875,
+            "width": 375,
+            "x": 0,
+            "y": 1982.3125
+          },
+          "selector": "features"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 294,
+            "width": 327,
+            "x": 24,
+            "y": 2169.1796875
+          },
+          "selector": "card reveal"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 294,
+            "width": 327,
+            "x": 24,
+            "y": 2495.1796875
+          },
+          "selector": "card reveal"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 294,
+            "width": 327,
+            "x": 24,
+            "y": 2821.1796875
+          },
+          "selector": "card reveal"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 294,
+            "width": 327,
+            "x": 24,
+            "y": 3147.1796875
+          },
+          "selector": "card reveal"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 294,
+            "width": 327,
+            "x": 24,
+            "y": 3473.1796875
+          },
+          "selector": "card reveal"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 294,
+            "width": 327,
+            "x": 24,
+            "y": 3799.1796875
+          },
+          "selector": "card reveal"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 404.7421875,
+            "width": 311,
+            "x": 32,
+            "y": 4153.1796875
+          },
+          "selector": "about"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 379.1484375,
+            "width": 311,
+            "x": 32,
+            "y": 4605.921875
+          },
+          "selector": "careers"
+        },
+        {
+          "color": "rgb(34, 48, 40)",
+          "font": "16px",
+          "rect": {
+            "height": 327.9609375,
+            "width": 311,
+            "x": 32,
+            "y": 5033.0703125
+          },
+          "selector": "contact"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "font": "16px",
+          "rect": {
+            "height": 317.578125,
+            "width": 311,
+            "x": 32,
+            "y": 5461.03125
+          },
+          "selector": "cta-band reveal"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "font": "15.2px",
+          "rect": {
+            "height": 499.2578125,
+            "width": 375,
+            "x": 0,
+            "y": 5766.609375
+          },
+          "selector": "FOOTER"
+        }
+      ],
+      "width": 390
+    }
+  }
+}

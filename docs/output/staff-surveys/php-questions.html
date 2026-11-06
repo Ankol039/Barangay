@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><base href="http://localhost/barangay_survey_system/staff/">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Question Management - Barangay Health Center Survey System</title>
+<link rel="stylesheet" href="../assets/css/style.css?v=30">
+</head>
+<body class="portal-layout">
+
+<aside class="sidebar no-print" id="app-sidebar">
+    <button type="button" class="sidebar-close mobile-nav-close" aria-label="Close navigation" title="Close navigation">&times;</button>
+    <div class="sidebar-header">
+        <div class="sidebar-logo">
+            <img class="sidebar-logo-img" src="../assets/css/Logo.png?v=2" alt="Barangay Health Center Logo">
+            <span class="sidebar-logo-text">
+                Barangay Health Center
+                <small>Survey Management System</small>
+            </span>
+        </div>
+    </div>
+
+    <nav>
+        <a class="nav-item" href="dashboard.php"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9.5 12 3l9 6.5V21a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1Z"/></svg><span>Dashboard</span></a>
+
+        <span class="sidebar-section-label">Surveys</span>
+        <a class="nav-item" href="survey_management.php"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6a1 1 0 0 1 1 1v1H8V4a1 1 0 0 1 1-1Z"/><rect x="5" y="5" width="14" height="16" rx="2"/><path d="M9 11h6M9 15h6M9 19h3"/></svg><span>Surveys</span></a>
+        <a class="nav-item" href="results_dashboard.php"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" x2="18" y1="20" y2="10"/><line x1="12" x2="12" y1="20" y2="4"/><line x1="6" x2="6" y1="20" y2="14"/></svg><span>Results</span></a>
+        <a class="nav-item" href="reports.php"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"/><path d="M14 2v6h6"/><path d="M9 15h6M9 11h2"/></svg><span>Reports</span></a>
+
+        <span class="sidebar-section-label">People</span>
+        <a class="nav-item" href="resident_management.php"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg><span>Registered Resident</span></a>
+        <a class="nav-item" href="address_requests.php"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg><span>Address Requests</span></a>
+        <a class="nav-item" href="user_management.php"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2 4 5v6c0 5 3.4 8.7 8 10 4.6-1.3 8-5 8-10V5Z"/><path d="m9 12 2 2 4-4"/></svg><span>User Management</span></a>
+        <a class="nav-item" href="deletion_requests.php"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="3 6 5 6 21 6"/><path d="M8 6V4h8v2M19 6l-1 15H6L5 6"/><path d="M10 11v6M14 11v6"/></svg><span>Deletion Requests</span></a>
+            </nav>
+
+</aside>
+<div class="nav-drawer-backdrop" id="nav-drawer-backdrop" aria-hidden="true"></div>
+
+<div class="app-main">
+
+<!-- Account indicator: upper-right corner, holds the portal options
+     that used to sit in the sidebar. -->
+<div class="app-topbar no-print">
+    <button type="button" class="mobile-nav-toggle mobile-nav-trigger" id="mobile-nav-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="app-sidebar">&#9776;</button>
+    <div class="mobile-brand" aria-hidden="true">
+        <img src="../assets/css/Logo.png?v=2" alt="">
+        <span>Barangay Health Center<small>Survey Management System</small></span>
+    </div>
+    <div class="account-tab">
+        <button type="button" class="account-chip" id="account-chip" title="Survey Management Fixture" aria-expanded="false" aria-haspopup="true" aria-controls="account-menu">
+                            <span class="account-avatar">S</span>
+                        <span class="account-meta">
+                <span class="account-name">Survey Management Fixture</span>
+                <span class="account-type">Staff Portal</span>
+            </span>
+            <svg class="account-caret" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>        </button>
+
+        <div class="account-menu" id="account-menu">
+            <!-- Full name, never truncated, so the chip's "..." can always be resolved -->
+            <span class="account-menu-name">Survey Management Fixture</span>
+            <span class="account-menu-role">Staff Portal</span>
+            <div class="account-menu-divider"></div>
+            <a href="complete_profile.php"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6 8-6s8 2 8 6"/></svg><span>My Profile</span></a>
+            <a href="change_password.php"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg><span>Change Password</span></a>
+            <div class="account-menu-divider"></div>
+            <!-- <span class="account-menu-label">Portals</span>
+            <a class="is-current" href="dashboard.php"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2 4 5v6c0 5 3.4 8.7 8 10 4.6-1.3 8-5 8-10V5Z"/><path d="m9 12 2 2 4-4"/></svg><span>Staff Portal</span></a>
+            <a href="../resident/login.php"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6 8-6s8 2 8 6"/></svg><span>Resident Portal</span></a>
+            <div class="account-menu-divider"></div> -->
+            <a class="account-menu-danger" href="logout.php"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" x2="9" y1="12" y2="12"/></svg><span>Logout</span></a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+<a class="back-link" href="survey_management.php">&larr; Back to Survey List</a>
+
+<div class="card">
+    <div class="card-head">
+        <div>
+            <h2 class="card-head-title" style="margin:0;">Questions for: Browser Survey Verification Fixture</h2>
+            <p class="muted-note" style="margin:4px 0 0;">Residents answer these in the order shown. Use the arrows to rearrange.</p>
+        </div>
+        <button type="button" class="btn" data-modal-open="add-question-modal">+ Add Question</button>
+    </div>
+
+        
+            <table class="table-spaced" style="margin-top:16px;">
+            <tr><th>#</th><th>Question</th><th>Type</th><th>Choices</th><th>Order</th><th>Actions</th></tr>
+                        <tr>
+                <td>1</td>
+                <td>Were you satisfied with the service?</td>
+                <td>Yes/No</td>
+                <td>&mdash;</td>
+                <td class="nowrap">
+                                            <span class="btn-action btn-action-muted" aria-hidden="true">&uarr;</span>
+                                                                <a class="btn-action" title="Move down" aria-label="Move down"
+                           href="question_management.php?survey_id=151&move=down&qid=223">&darr;</a>
+                                    </td>
+                <td class="nowrap">
+                    <button type="button" class="btn-action btn-action-primary edit-question-btn"
+                            title="Edit question" aria-label="Edit question"
+                            data-question='{&quot;question_id&quot;:223,&quot;question_text&quot;:&quot;Were you satisfied with the service?&quot;,&quot;question_type&quot;:&quot;yesno&quot;,&quot;choices&quot;:[]}'><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg></button>
+                    <a class="btn-action btn-action-danger" title="Delete question" aria-label="Delete question"
+                       href="question_management.php?survey_id=151&delete=223"
+                       data-confirm="Delete this question and all related answers?"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="3 6 5 6 21 6"/><path d="M8 6V4h8v2M19 6l-1 15H6L5 6"/><path d="M10 11v6M14 11v6"/></svg></a>
+                </td>
+            </tr>
+                        <tr>
+                <td>2</td>
+                <td>Which service did you use?</td>
+                <td>Multiple Choice</td>
+                <td>Consultation corrected, Vaccination</td>
+                <td class="nowrap">
+                                            <a class="btn-action" title="Move up" aria-label="Move up"
+                           href="question_management.php?survey_id=151&move=up&qid=222">&uarr;</a>
+                                                                <a class="btn-action" title="Move down" aria-label="Move down"
+                           href="question_management.php?survey_id=151&move=down&qid=222">&darr;</a>
+                                    </td>
+                <td class="nowrap">
+                    <button type="button" class="btn-action btn-action-primary edit-question-btn"
+                            title="Edit question" aria-label="Edit question"
+                            data-question='{&quot;question_id&quot;:222,&quot;question_text&quot;:&quot;Which service did you use?&quot;,&quot;question_type&quot;:&quot;multiple_choice&quot;,&quot;choices&quot;:[{&quot;choice_id&quot;:96,&quot;choice_text&quot;:&quot;Consultation corrected&quot;},{&quot;choice_id&quot;:97,&quot;choice_text&quot;:&quot;Vaccination&quot;}]}'><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg></button>
+                    <a class="btn-action btn-action-danger" title="Delete question" aria-label="Delete question"
+                       href="question_management.php?survey_id=151&delete=222"
+                       data-confirm="Delete this question and all related answers?"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="3 6 5 6 21 6"/><path d="M8 6V4h8v2M19 6l-1 15H6L5 6"/><path d="M10 11v6M14 11v6"/></svg></a>
+                </td>
+            </tr>
+                        <tr>
+                <td>3</td>
+                <td>How would you rate the service?</td>
+                <td>Rating Scale</td>
+                <td>&mdash;</td>
+                <td class="nowrap">
+                                            <a class="btn-action" title="Move up" aria-label="Move up"
+                           href="question_management.php?survey_id=151&move=up&qid=224">&uarr;</a>
+                                                                <a class="btn-action" title="Move down" aria-label="Move down"
+                           href="question_management.php?survey_id=151&move=down&qid=224">&darr;</a>
+                                    </td>
+                <td class="nowrap">
+                    <button type="button" class="btn-action btn-action-primary edit-question-btn"
+                            title="Edit question" aria-label="Edit question"
+                            data-question='{&quot;question_id&quot;:224,&quot;question_text&quot;:&quot;How would you rate the service?&quot;,&quot;question_type&quot;:&quot;rating&quot;,&quot;choices&quot;:[]}'><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg></button>
+                    <a class="btn-action btn-action-danger" title="Delete question" aria-label="Delete question"
+                       href="question_management.php?survey_id=151&delete=224"
+                       data-confirm="Delete this question and all related answers?"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="3 6 5 6 21 6"/><path d="M8 6V4h8v2M19 6l-1 15H6L5 6"/><path d="M10 11v6M14 11v6"/></svg></a>
+                </td>
+            </tr>
+                        <tr>
+                <td>4</td>
+                <td>What could we improve?</td>
+                <td>Short Answer</td>
+                <td>&mdash;</td>
+                <td class="nowrap">
+                                            <a class="btn-action" title="Move up" aria-label="Move up"
+                           href="question_management.php?survey_id=151&move=up&qid=225">&uarr;</a>
+                                                                <span class="btn-action btn-action-muted" aria-hidden="true">&darr;</span>
+                                    </td>
+                <td class="nowrap">
+                    <button type="button" class="btn-action btn-action-primary edit-question-btn"
+                            title="Edit question" aria-label="Edit question"
+                            data-question='{&quot;question_id&quot;:225,&quot;question_text&quot;:&quot;What could we improve?&quot;,&quot;question_type&quot;:&quot;short_answer&quot;,&quot;choices&quot;:[]}'><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg></button>
+                    <a class="btn-action btn-action-danger" title="Delete question" aria-label="Delete question"
+                       href="question_management.php?survey_id=151&delete=225"
+                       data-confirm="Delete this question and all related answers?"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="3 6 5 6 21 6"/><path d="M8 6V4h8v2M19 6l-1 15H6L5 6"/><path d="M10 11v6M14 11v6"/></svg></a>
+                </td>
+            </tr>
+                    </table>
+    </div>
+
+<!-- Add Question modal -->
+<div class="modal-overlay" id="add-question-modal">
+    <div class="modal-box">
+        <button type="button" class="modal-close" data-modal-close>&times;</button>
+        <h2>Add Question</h2>
+                <form method="POST" id="add-question-form" data-dirty-warn>
+            <label for="question_text">Question Text <span class="req">*</span></label>
+            <input type="text" id="question_text" name="question_text" required maxlength="255"
+                   value=""
+                placeholder="e.g. How would you rate our services?">
+
+            <div class="question-row">
+                <label for="question_type">Question Type</label>
+                <select id="question_type" name="question_type" class="question-type-select">
+                    <option value="multiple_choice">Multiple Choice</option>
+                    <option value="yesno">Yes/No</option>
+                    <option value="rating">Rating Scale (1-5)</option>
+                    <option value="short_answer">Short Answer</option>
+                </select>
+
+                <div class="choices-box" style="display:none;">
+                    <label>Choices <span class="req">*</span></label>
+                    <p class="field-hint">At least two. Blank boxes are ignored when you save.</p>
+                    <div class="choices-inputs" data-choice-name="choices">
+                        <div class="choice-row">
+                            <input type="text" name="choices[]" maxlength="150" placeholder="Choice 1">
+                            <button type="button" class="btn-action btn-action-danger remove-choice-btn" title="Remove this choice" aria-label="Remove this choice">&times;</button>
+                        </div>
+                        <div class="choice-row">
+                            <input type="text" name="choices[]" maxlength="150" placeholder="Choice 2">
+                            <button type="button" class="btn-action btn-action-danger remove-choice-btn" title="Remove this choice" aria-label="Remove this choice">&times;</button>
+                        </div>
+                    </div>
+                    <button type="button" class="add-choice-btn btn-secondary btn-small">+ Add Choice</button>
+                </div>
+            </div>
+
+            <div class="modal-actions">
+                <button type="submit" class="btn">Add Question</button>
+                <button type="button" class="btn btn-secondary" data-modal-close>Cancel</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Edit Question modal, filled in by the row buttons above -->
+<div class="modal-overlay" id="edit-question-modal">
+    <div class="modal-box">
+        <button type="button" class="modal-close" data-modal-close>&times;</button>
+        <h2>Edit Question</h2>
+                <form method="POST" id="edit-question-form" data-dirty-warn>
+            <input type="hidden" name="update_question" value="1">
+            <input type="hidden" name="question_id" id="edit_question_id" value="0">
+
+            <label for="edit_question_text">Question Text <span class="req">*</span></label>
+            <input type="text" id="edit_question_text" name="question_text" required maxlength="255"
+                   value=""
+                placeholder="e.g. How would you rate our services?">
+
+            <div class="question-row">
+                <label for="edit_question_type">Question Type</label>
+                <select id="edit_question_type" name="question_type" class="question-type-select">
+                    <option value="multiple_choice">Multiple Choice</option>
+                    <option value="yesno">Yes/No</option>
+                    <option value="rating">Rating Scale (1-5)</option>
+                    <option value="short_answer">Short Answer</option>
+                </select>
+
+                <div class="choices-box" style="display:none;">
+                    <label>Choices <span class="req">*</span></label>
+                    <p class="field-hint">Clearing a box removes that choice, along with the answers recorded against it.</p>
+                    <div class="choices-inputs" id="edit-choices-inputs" data-choice-name="new_choices"></div>
+                    <button type="button" class="add-choice-btn btn-secondary btn-small">+ Add Choice</button>
+                </div>
+            </div>
+
+            <div class="modal-actions">
+                <button type="submit" class="btn">Save Changes</button>
+                <button type="button" class="btn btn-secondary" data-modal-close>Cancel</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Success confirmation modal -->
+<div class="modal-overlay" id="question-success-modal">
+    <div class="modal-box modal-narrow">
+        <button type="button" class="modal-close" data-modal-close>&times;</button>
+        <div class="modal-icon-success">&#10003;</div>
+        <h2>Success</h2>
+        <p style="color:var(--muted);"></p>
+        <div class="modal-actions">
+            <button type="button" class="btn" data-modal-close>Done</button>
+        </div>
+    </div>
+</div>
+
+<script>
+(function () {
+    // Fill the edit modal from whichever row was clicked.
+    document.querySelectorAll('.edit-question-btn').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+            var q = JSON.parse(btn.getAttribute('data-question'));
+            document.getElementById('edit_question_id').value = q.question_id;
+            document.getElementById('edit_question_text').value = q.question_text;
+
+            var typeSelect = document.getElementById('edit_question_type');
+            typeSelect.value = q.question_type;
+
+            // Existing choices keep their id so recorded answers stay attached.
+            var box = document.getElementById('edit-choices-inputs');
+            box.innerHTML = '';
+            q.choices.forEach(function (choice, i) {
+                var row = document.createElement('div');
+                row.className = 'choice-row';
+
+                var input = document.createElement('input');
+                input.type = 'text';
+                input.name = 'existing_choices[' + choice.choice_id + ']';
+                input.maxLength = 150;
+                input.value = choice.choice_text;
+                input.placeholder = 'Choice ' + (i + 1);
+
+                var remove = document.createElement('button');
+                remove.type = 'button';
+                remove.className = 'btn-action btn-action-danger remove-choice-btn';
+                remove.title = 'Remove this choice';
+                remove.setAttribute('aria-label', 'Remove this choice');
+                remove.innerHTML = '&times;';
+
+                row.appendChild(input);
+                row.appendChild(remove);
+                box.appendChild(row);
+            });
+
+            typeSelect.dispatchEvent(new Event('change'));
+            document.getElementById('edit-question-modal').classList.add('active');
+        });
+    });
+})();
+</script>
+
+</div><!-- /.container -->
+
+<footer class="site-footer no-print">
+    &copy; 2026 Barangay Health Center &mdash; Survey Management System
+</footer>
+</div><!-- /.app-main -->
+
+<!-- Shared confirmation modal used by every data-confirm link (delete, deactivate, reset, etc.) -->
+<div class="modal-overlay no-print" id="confirm-modal" data-keep-on-close>
+    <div class="modal-box modal-narrow">
+        <button type="button" class="modal-close" data-modal-close aria-label="Close">&times;</button>
+        <div class="modal-icon-warning">!</div>
+        <h2>Please Confirm</h2>
+        <p id="confirm-modal-message" class="modal-text">Are you sure you want to proceed?</p>
+        <div class="modal-actions">
+            <button type="button" class="btn btn-secondary" data-modal-close>Cancel</button>
+            <a href="#" id="confirm-modal-proceed" class="btn btn-danger">Yes, Continue</a>
+        </div>
+    </div>
+</div>
+
+<script src="../assets/js/script.js?v=16"></script>
+</body>
+</html>

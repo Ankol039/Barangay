@@ -1,0 +1,472 @@
+{
+  "react": {
+    "admin": true,
+    "canvases": [
+      {
+        "height": 270,
+        "id": "chart-trend",
+        "width": 707
+      },
+      {
+        "height": 190,
+        "id": "chart-participation",
+        "width": 300
+      },
+      {
+        "height": 310,
+        "id": "chart-responses",
+        "width": 421
+      },
+      {
+        "height": 230,
+        "id": "chart-survey-status",
+        "width": 230
+      },
+      {
+        "height": 230,
+        "id": "chart-residency",
+        "width": 326
+      },
+      {
+        "height": 270,
+        "id": "chart-age",
+        "width": 517
+      },
+      {
+        "height": 230,
+        "id": "chart-gender",
+        "width": 230
+      },
+      {
+        "height": 230,
+        "id": "chart-priority",
+        "width": 230
+      },
+      {
+        "height": 270,
+        "id": "chart-occupation",
+        "width": 421
+      },
+      {
+        "height": 270,
+        "id": "chart-purok",
+        "width": 326
+      },
+      {
+        "height": 270,
+        "id": "chart-household",
+        "width": 230
+      }
+    ],
+    "height": 4474,
+    "panels": [
+      {
+        "height": 82.5078125,
+        "title": "page-head",
+        "width": 1127,
+        "x": 274,
+        "y": 20
+      },
+      {
+        "height": 115.0625,
+        "title": "db-strip",
+        "width": 1127,
+        "x": 274,
+        "y": 178.0703125
+      },
+      {
+        "height": 419.3828125,
+        "title": "Responses Received",
+        "width": 745.328125,
+        "x": 274,
+        "y": 311.1328125
+      },
+      {
+        "height": 419.3828125,
+        "title": "Participation Rate",
+        "width": 363.6640625,
+        "x": 1037.328125,
+        "y": 311.1328125
+      },
+      {
+        "height": 416.8046875,
+        "title": "Responses per Survey",
+        "width": 459.078125,
+        "x": 274,
+        "y": 748.515625
+      },
+      {
+        "height": 416.8046875,
+        "title": "Survey Status",
+        "width": 268.25,
+        "x": 751.078125,
+        "y": 748.515625
+      },
+      {
+        "height": 416.8046875,
+        "title": "Residency Mix",
+        "width": 363.6640625,
+        "x": 1037.328125,
+        "y": 748.515625
+      },
+      {
+        "height": 546.984375,
+        "title": "Completion Rate",
+        "width": 363.6640625,
+        "x": 274,
+        "y": 1183.3203125
+      },
+      {
+        "height": 546.984375,
+        "title": "Surveys",
+        "width": 745.3359375,
+        "x": 655.6640625,
+        "y": 1183.3203125
+      },
+      {
+        "height": 318.03125,
+        "title": "At a Glance",
+        "width": 363.6640625,
+        "x": 274,
+        "y": 1748.3046875
+      },
+      {
+        "height": 318.03125,
+        "title": "Most Active Residents",
+        "width": 363.6640625,
+        "x": 655.6640625,
+        "y": 1748.3046875
+      },
+      {
+        "height": 318.03125,
+        "title": "Question Types in Use",
+        "width": 363.6640625,
+        "x": 1037.328125,
+        "y": 1748.3046875
+      },
+      {
+        "height": 365.6484375,
+        "title": "Age Groups",
+        "width": 554.5,
+        "x": 274,
+        "y": 2128.6640625
+      },
+      {
+        "height": 365.6484375,
+        "title": "Gender",
+        "width": 268.25,
+        "x": 846.5,
+        "y": 2128.6640625
+      },
+      {
+        "height": 365.6484375,
+        "title": "Priority Groups",
+        "width": 268.25,
+        "x": 1132.75,
+        "y": 2128.6640625
+      },
+      {
+        "height": 365.6484375,
+        "title": "Common Occupations",
+        "width": 459.078125,
+        "x": 274,
+        "y": 2512.3125
+      },
+      {
+        "height": 365.6484375,
+        "title": "Residents by Purok",
+        "width": 363.6640625,
+        "x": 751.078125,
+        "y": 2512.3125
+      },
+      {
+        "height": 365.6484375,
+        "title": "Household Make-up",
+        "width": 268.25,
+        "x": 1132.7421875,
+        "y": 2512.3125
+      },
+      {
+        "height": 114.1328125,
+        "title": "db-strip",
+        "width": 1086,
+        "x": 296,
+        "y": 2999.3203125
+      },
+      {
+        "height": 598.078125,
+        "title": "Recent Login Activity",
+        "width": 718,
+        "x": 296,
+        "y": 3131.453125
+      },
+      {
+        "height": 598.078125,
+        "title": "Sign-ins by Portal",
+        "width": 350,
+        "x": 1032,
+        "y": 3131.453125
+      },
+      {
+        "height": 601.078125,
+        "title": "Recent Logout Activity",
+        "width": 718,
+        "x": 296,
+        "y": 3747.53125
+      },
+      {
+        "height": 601.078125,
+        "title": "Sign-outs by Portal",
+        "width": 350,
+        "x": 1032,
+        "y": 3747.53125
+      },
+      {
+        "height": 60.828125,
+        "title": "site-footer no-print",
+        "width": 1175,
+        "x": 250,
+        "y": 4413.609375
+      }
+    ],
+    "viewport": [
+      1440,
+      900
+    ]
+  },
+  "php": {
+    "admin": true,
+    "canvases": [
+      {
+        "height": 270,
+        "id": "chart-trend",
+        "width": 707
+      },
+      {
+        "height": 190,
+        "id": "chart-participation",
+        "width": 300
+      },
+      {
+        "height": 310,
+        "id": "chart-responses",
+        "width": 421
+      },
+      {
+        "height": 230,
+        "id": "chart-survey-status",
+        "width": 230
+      },
+      {
+        "height": 230,
+        "id": "chart-residency",
+        "width": 326
+      },
+      {
+        "height": 270,
+        "id": "chart-age",
+        "width": 517
+      },
+      {
+        "height": 230,
+        "id": "chart-gender",
+        "width": 230
+      },
+      {
+        "height": 230,
+        "id": "chart-priority",
+        "width": 230
+      },
+      {
+        "height": 270,
+        "id": "chart-occupation",
+        "width": 421
+      },
+      {
+        "height": 270,
+        "id": "chart-purok",
+        "width": 326
+      },
+      {
+        "height": 270,
+        "id": "chart-household",
+        "width": 230
+      }
+    ],
+    "height": 4474,
+    "panels": [
+      {
+        "height": 82.5078125,
+        "title": "page-head",
+        "width": 1127,
+        "x": 274,
+        "y": 20
+      },
+      {
+        "height": 115.0625,
+        "title": "db-strip",
+        "width": 1127,
+        "x": 274,
+        "y": 178.0703125
+      },
+      {
+        "height": 419.3828125,
+        "title": "Responses Received",
+        "width": 745.328125,
+        "x": 274,
+        "y": 311.1328125
+      },
+      {
+        "height": 419.3828125,
+        "title": "Participation Rate",
+        "width": 363.6640625,
+        "x": 1037.328125,
+        "y": 311.1328125
+      },
+      {
+        "height": 416.8046875,
+        "title": "Responses per Survey",
+        "width": 459.078125,
+        "x": 274,
+        "y": 748.515625
+      },
+      {
+        "height": 416.8046875,
+        "title": "Survey Status",
+        "width": 268.25,
+        "x": 751.078125,
+        "y": 748.515625
+      },
+      {
+        "height": 416.8046875,
+        "title": "Residency Mix",
+        "width": 363.6640625,
+        "x": 1037.328125,
+        "y": 748.515625
+      },
+      {
+        "height": 546.984375,
+        "title": "Completion Rate",
+        "width": 363.6640625,
+        "x": 274,
+        "y": 1183.3203125
+      },
+      {
+        "height": 546.984375,
+        "title": "Surveys",
+        "width": 745.3359375,
+        "x": 655.6640625,
+        "y": 1183.3203125
+      },
+      {
+        "height": 318.03125,
+        "title": "At a Glance",
+        "width": 363.6640625,
+        "x": 274,
+        "y": 1748.3046875
+      },
+      {
+        "height": 318.03125,
+        "title": "Most Active Residents",
+        "width": 363.6640625,
+        "x": 655.6640625,
+        "y": 1748.3046875
+      },
+      {
+        "height": 318.03125,
+        "title": "Question Types in Use",
+        "width": 363.6640625,
+        "x": 1037.328125,
+        "y": 1748.3046875
+      },
+      {
+        "height": 365.6484375,
+        "title": "Age Groups",
+        "width": 554.5,
+        "x": 274,
+        "y": 2128.6640625
+      },
+      {
+        "height": 365.6484375,
+        "title": "Gender",
+        "width": 268.25,
+        "x": 846.5,
+        "y": 2128.6640625
+      },
+      {
+        "height": 365.6484375,
+        "title": "Priority Groups",
+        "width": 268.25,
+        "x": 1132.75,
+        "y": 2128.6640625
+      },
+      {
+        "height": 365.6484375,
+        "title": "Common Occupations",
+        "width": 459.078125,
+        "x": 274,
+        "y": 2512.3125
+      },
+      {
+        "height": 365.6484375,
+        "title": "Residents by Purok",
+        "width": 363.6640625,
+        "x": 751.078125,
+        "y": 2512.3125
+      },
+      {
+        "height": 365.6484375,
+        "title": "Household Make-up",
+        "width": 268.25,
+        "x": 1132.7421875,
+        "y": 2512.3125
+      },
+      {
+        "height": 114.1328125,
+        "title": "db-strip",
+        "width": 1086,
+        "x": 296,
+        "y": 2999.3203125
+      },
+      {
+        "height": 598.078125,
+        "title": "Recent Login Activity",
+        "width": 718,
+        "x": 296,
+        "y": 3131.453125
+      },
+      {
+        "height": 598.078125,
+        "title": "Sign-ins by Portal",
+        "width": 350,
+        "x": 1032,
+        "y": 3131.453125
+      },
+      {
+        "height": 601.078125,
+        "title": "Recent Logout Activity",
+        "width": 718,
+        "x": 296,
+        "y": 3747.53125
+      },
+      {
+        "height": 601.078125,
+        "title": "Sign-outs by Portal",
+        "width": 350,
+        "x": 1032,
+        "y": 3747.53125
+      },
+      {
+        "height": 60.828125,
+        "title": "site-footer no-print",
+        "width": 1175,
+        "x": 250,
+        "y": 4413.609375
+      }
+    ],
+    "viewport": [
+      1440,
+      900
+    ]
+  }
+}
